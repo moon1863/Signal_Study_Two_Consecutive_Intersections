@@ -1,0 +1,2430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TMML Facility="UrbanStreets">
+  <Global>
+    <Program>HCS7 Streets Version 7.9</Program>
+    <FirstPeriodStartTime>7:00</FirstPeriodStartTime>
+    <PeriodDuration>0.250</PeriodDuration>
+    <IntersectionCount>2</IntersectionCount>
+    <InterchangeCount>0</InterchangeCount>
+    <NumberOfCalculationIterations>15</NumberOfCalculationIterations>
+    <QueueLengthPercentile>50</QueueLengthPercentile>
+    <CriticalMergeGap>3.70</CriticalMergeGap>
+    <DecelerationRateAccessPoint>6.7</DecelerationRateAccessPoint>
+    <RightTurnSpeed>20</RightTurnSpeed>
+    <DecelerationRateSignal>4.00</DecelerationRateSignal>
+    <AccelerationRate>3.50</AccelerationRate>
+    <MinimumPlatoonHeadway>1.50</MinimumPlatoonHeadway>
+    <MaximumPlatoonHeadway>3.60</MaximumPlatoonHeadway>
+    <PlatoonDispersionFactor>0.138</PlatoonDispersionFactor>
+    <DemandGrowth>0.00</DemandGrowth>
+    <StopThresholdSpeed>5.0</StopThresholdSpeed>
+    <SystemCycleLength>160</SystemCycleLength>
+    <BaseSaturationFlowRate>1900</BaseSaturationFlowRate>
+    <StoredHeavyVehicleLaneLength>45</StoredHeavyVehicleLaneLength>
+    <ProportionPedsWhoPushButton>0.51</ProportionPedsWhoPushButton>
+    <AverageSpeedtoFFSRatio>0.90</AverageSpeedtoFFSRatio>
+    <StoredVehicleLaneLength>25.0</StoredVehicleLaneLength>
+    <SneakersPerCycle>2.0</SneakersPerCycle>
+    <LengthOfDetectedVehicle>17.0</LengthOfDetectedVehicle>
+    <CriticalGapAccessPoint>4.1</CriticalGapAccessPoint>
+    <FollowUpTimeAccessPoint>2.2</FollowUpTimeAccessPoint>
+    <MaximumTurnBayLengthAccessPoint>250</MaximumTurnBayLengthAccessPoint>
+    <UrbanStreetForwardDirection>NB</UrbanStreetForwardDirection>
+    <CriticalGapSignal>4.5</CriticalGapSignal>
+    <FollowUpTimeSignal>2.5</FollowUpTimeSignal>
+    <PerformOptimization>No</PerformOptimization>
+    <MinimumCycleLength>120</MinimumCycleLength>
+    <MaximumCycleLength>120</MaximumCycleLength>
+    <CycleLengthIncrement>10</CycleLengthIncrement>
+    <MasterIntersectionNumber>1</MasterIntersectionNumber>
+    <FitnessFunction>Percent Base FFS</FitnessFunction>
+    <SafetyWeight>33.3</SafetyWeight>
+    <DelayWeight>33.3</DelayWeight>
+    <EmissionsWeight>33.3</EmissionsWeight>
+    <CycleLengthOptimization>No</CycleLengthOptimization>
+    <PhasingSequenceOptimization>No</PhasingSequenceOptimization>
+    <DallasPhasingOptimization>No</DallasPhasingOptimization>
+    <SplitOptimization>Yes</SplitOptimization>
+    <OffsetOptimization>Yes</OffsetOptimization>
+    <PopulationSize>10</PopulationSize>
+    <CrossoverProbability>30</CrossoverProbability>
+    <MutationProbability>1.0</MutationProbability>
+    <ConvergenceThreshold>0.010</ConvergenceThreshold>
+    <MaximumNumberOfGenerations>200</MaximumNumberOfGenerations>
+    <RandomNumberSeed>7781</RandomNumberSeed>
+    <ForwardDirectionalWeighting>50</ForwardDirectionalWeighting>
+    <ReverseDirectionalWeighting>50</ReverseDirectionalWeighting>
+    <Analyst>Jorge Ugan and Md Rakibul Alam</Analyst>
+    <AnalysisTimePeriod>4pm to 7pm</AnalysisTimePeriod>
+    <Agency>Group 4</Agency>
+    <Date>10/18/2020</Date>
+    <ProjectDescription>TTE6256 Project</ProjectDescription>
+    <Jurisdiction>HCM</Jurisdiction>
+    <AnalysisYear>2020</AnalysisYear>
+    <AreaType>Other</AreaType>
+    <UrbanStreet>North Alafaya Trail</UrbanStreet>
+    <DataFile>Project_Group4.xus</DataFile>
+    <ErrorAndWarningComments></ErrorAndWarningComments>
+    <PeriodCount>1</PeriodCount>
+    <MapScale>1.0000</MapScale>
+    <MapImageFile></MapImageFile>
+    <MapImageFullPath></MapImageFullPath>
+    <MapBackgroundOriginX>-1.00000000000000000000</MapBackgroundOriginX>
+    <MapBackgroundOriginY>-1.00000000000000000000</MapBackgroundOriginY>
+    <MapImageSizeX>-1.00000000000000000000</MapImageSizeX>
+    <MapImageSizeY>-1.00000000000000000000</MapImageSizeY>
+    <MapViewportOriginX>0.0000</MapViewportOriginX>
+    <MapViewportOriginY>-500.0000</MapViewportOriginY>
+    <MapViewportZoom>0.1000</MapViewportZoom>
+    <HideSignalsPedestrianResults>No</HideSignalsPedestrianResults>
+    <HideSignalsBicycleResults>No</HideSignalsBicycleResults>
+    <HideStreetsPedestrianResults>No</HideStreetsPedestrianResults>
+    <HideStreetsBicyleResults>No</HideStreetsBicyleResults>
+    <HideStreetsTransitResults>No</HideStreetsTransitResults>
+    <MetricUnits>No</MetricUnits>
+    <RcutMedianWidth>Typical</RcutMedianWidth>
+    <Period ID="1" />
+  </Global>
+  <INTERSECTION Int="1">
+    <IntersectionName>North Alafaya Trail &amp; Waterford Lakes Town Center</IntersectionName>
+    <IsMainAlternativeIntersection>No</IsMainAlternativeIntersection>
+    <IsPartOfAlternativeIntersection>No</IsPartOfAlternativeIntersection>
+    <AlternativeIntersectionType></AlternativeIntersectionType>
+    <ReferencePhase>2</ReferencePhase>
+    <Reference>End</Reference>
+    <Offset IsUserEntered="True">0</Offset>
+    <ExclusivePedPhaseTime>0.0</ExclusivePedPhaseTime>
+    <ForceMode>Fixed</ForceMode>
+    <Phase2Direction>NB</Phase2Direction>
+    <Phase4Direction>EB</Phase4Direction>
+    <SplitPhasing>No</SplitPhasing>
+    <FieldMeasuredPhaseTimes>Yes</FieldMeasuredPhaseTimes>
+    <XCoordinate>0</XCoordinate>
+    <YCoordinate>0</YCoordinate>
+    <IsLocationUserModified>False</IsLocationUserModified>
+    <PeakHourFactor>0.90</PeakHourFactor>
+    <HeavyVehicleEquivalencyFactor ID="EBL">2.00</HeavyVehicleEquivalencyFactor>
+    <HeavyVehicleEquivalencyFactor ID="EBT">2.00</HeavyVehicleEquivalencyFactor>
+    <HeavyVehicleEquivalencyFactor ID="EBR">2.00</HeavyVehicleEquivalencyFactor>
+    <HeavyVehicleEquivalencyFactor ID="WBL">2.00</HeavyVehicleEquivalencyFactor>
+    <HeavyVehicleEquivalencyFactor ID="WBT">2.00</HeavyVehicleEquivalencyFactor>
+    <HeavyVehicleEquivalencyFactor ID="WBR">2.00</HeavyVehicleEquivalencyFactor>
+    <HeavyVehicleEquivalencyFactor ID="NBL">2.00</HeavyVehicleEquivalencyFactor>
+    <HeavyVehicleEquivalencyFactor ID="NBT">2.00</HeavyVehicleEquivalencyFactor>
+    <HeavyVehicleEquivalencyFactor ID="NBR">2.00</HeavyVehicleEquivalencyFactor>
+    <HeavyVehicleEquivalencyFactor ID="SBL">2.00</HeavyVehicleEquivalencyFactor>
+    <HeavyVehicleEquivalencyFactor ID="SBT">2.00</HeavyVehicleEquivalencyFactor>
+    <HeavyVehicleEquivalencyFactor ID="SBR">2.00</HeavyVehicleEquivalencyFactor>
+    <HeavyVehicleEquivalencyFactor ID="EBU">2.00</HeavyVehicleEquivalencyFactor>
+    <HeavyVehicleEquivalencyFactor ID="WBU">2.00</HeavyVehicleEquivalencyFactor>
+    <HeavyVehicleEquivalencyFactor ID="NBU">2.00</HeavyVehicleEquivalencyFactor>
+    <HeavyVehicleEquivalencyFactor ID="SBU">2.00</HeavyVehicleEquivalencyFactor>
+    <BusBlockageTime ID="EBL">14.4</BusBlockageTime>
+    <BusBlockageTime ID="EBT">14.4</BusBlockageTime>
+    <BusBlockageTime ID="EBR">14.4</BusBlockageTime>
+    <BusBlockageTime ID="WBL">14.4</BusBlockageTime>
+    <BusBlockageTime ID="WBT">14.4</BusBlockageTime>
+    <BusBlockageTime ID="WBR">14.4</BusBlockageTime>
+    <BusBlockageTime ID="NBL">14.4</BusBlockageTime>
+    <BusBlockageTime ID="NBT">14.4</BusBlockageTime>
+    <BusBlockageTime ID="NBR">14.4</BusBlockageTime>
+    <BusBlockageTime ID="SBL">14.4</BusBlockageTime>
+    <BusBlockageTime ID="SBT">14.4</BusBlockageTime>
+    <BusBlockageTime ID="SBR">14.4</BusBlockageTime>
+    <BusBlockageTime ID="EBU">14.4</BusBlockageTime>
+    <BusBlockageTime ID="WBU">14.4</BusBlockageTime>
+    <BusBlockageTime ID="NBU">14.4</BusBlockageTime>
+    <BusBlockageTime ID="SBU">14.4</BusBlockageTime>
+    <InterchangeIntersectionIRT>No</InterchangeIntersectionIRT>
+    <IsDivergingDiamondInterchangeIntersection>No</IsDivergingDiamondInterchangeIntersection>
+    <InterchangeTypeIRT>Diamond</InterchangeTypeIRT>
+    <TurnRadius IsUserEntered="False" ID="EBL">112</TurnRadius>
+    <TurnRadius IsUserEntered="False" ID="EBT">0</TurnRadius>
+    <TurnRadius IsUserEntered="False" ID="EBR">32</TurnRadius>
+    <TurnRadius IsUserEntered="False" ID="WBL">112</TurnRadius>
+    <TurnRadius IsUserEntered="False" ID="WBT">0</TurnRadius>
+    <TurnRadius IsUserEntered="False" ID="WBR">32</TurnRadius>
+    <TurnRadius IsUserEntered="False" ID="NBL">112</TurnRadius>
+    <TurnRadius IsUserEntered="False" ID="NBT">0</TurnRadius>
+    <TurnRadius IsUserEntered="False" ID="NBR">32</TurnRadius>
+    <TurnRadius IsUserEntered="False" ID="SBL">112</TurnRadius>
+    <TurnRadius IsUserEntered="False" ID="SBT">0</TurnRadius>
+    <TurnRadius IsUserEntered="False" ID="SBR">32</TurnRadius>
+    <TurnRadius IsUserEntered="False" ID="EBU">0</TurnRadius>
+    <TurnRadius IsUserEntered="False" ID="WBU">0</TurnRadius>
+    <TurnRadius IsUserEntered="False" ID="NBU">0</TurnRadius>
+    <TurnRadius IsUserEntered="False" ID="SBU">0</TurnRadius>
+    <WalkInterval ID="EBL">0.0</WalkInterval>
+    <WalkInterval ID="EBT">0.0</WalkInterval>
+    <WalkInterval ID="EBR">0.0</WalkInterval>
+    <WalkInterval ID="WBL">0.0</WalkInterval>
+    <WalkInterval ID="WBT">0.0</WalkInterval>
+    <WalkInterval ID="WBR">0.0</WalkInterval>
+    <WalkInterval ID="NBL">0.0</WalkInterval>
+    <WalkInterval ID="NBT">0.0</WalkInterval>
+    <WalkInterval ID="NBR">0.0</WalkInterval>
+    <WalkInterval ID="SBL">0.0</WalkInterval>
+    <WalkInterval ID="SBT">0.0</WalkInterval>
+    <WalkInterval ID="SBR">0.0</WalkInterval>
+    <WalkInterval ID="EBU">0.0</WalkInterval>
+    <WalkInterval ID="WBU">0.0</WalkInterval>
+    <WalkInterval ID="NBU">0.0</WalkInterval>
+    <WalkInterval ID="SBU">0.0</WalkInterval>
+    <PedestrianClearIntervalTime ID="EBL">0.0</PedestrianClearIntervalTime>
+    <PedestrianClearIntervalTime ID="EBT">0.0</PedestrianClearIntervalTime>
+    <PedestrianClearIntervalTime ID="EBR">0.0</PedestrianClearIntervalTime>
+    <PedestrianClearIntervalTime ID="WBL">0.0</PedestrianClearIntervalTime>
+    <PedestrianClearIntervalTime ID="WBT">0.0</PedestrianClearIntervalTime>
+    <PedestrianClearIntervalTime ID="WBR">0.0</PedestrianClearIntervalTime>
+    <PedestrianClearIntervalTime ID="NBL">0.0</PedestrianClearIntervalTime>
+    <PedestrianClearIntervalTime ID="NBT">0.0</PedestrianClearIntervalTime>
+    <PedestrianClearIntervalTime ID="NBR">0.0</PedestrianClearIntervalTime>
+    <PedestrianClearIntervalTime ID="SBL">0.0</PedestrianClearIntervalTime>
+    <PedestrianClearIntervalTime ID="SBT">0.0</PedestrianClearIntervalTime>
+    <PedestrianClearIntervalTime ID="SBR">0.0</PedestrianClearIntervalTime>
+    <PedestrianClearIntervalTime ID="EBU">0.0</PedestrianClearIntervalTime>
+    <PedestrianClearIntervalTime ID="WBU">0.0</PedestrianClearIntervalTime>
+    <PedestrianClearIntervalTime ID="NBU">0.0</PedestrianClearIntervalTime>
+    <PedestrianClearIntervalTime ID="SBU">0.0</PedestrianClearIntervalTime>
+    <ReceivingLanes IsUserEntered="False" ID="EBL">2</ReceivingLanes>
+    <ReceivingLanes IsUserEntered="False" ID="EBT">2</ReceivingLanes>
+    <ReceivingLanes IsUserEntered="False" ID="EBR">2</ReceivingLanes>
+    <ReceivingLanes IsUserEntered="False" ID="WBL">2</ReceivingLanes>
+    <ReceivingLanes IsUserEntered="False" ID="WBT">2</ReceivingLanes>
+    <ReceivingLanes IsUserEntered="False" ID="WBR">2</ReceivingLanes>
+    <ReceivingLanes IsUserEntered="False" ID="NBL">3</ReceivingLanes>
+    <ReceivingLanes IsUserEntered="False" ID="NBT">3</ReceivingLanes>
+    <ReceivingLanes IsUserEntered="False" ID="NBR">3</ReceivingLanes>
+    <ReceivingLanes IsUserEntered="False" ID="SBL">3</ReceivingLanes>
+    <ReceivingLanes IsUserEntered="False" ID="SBT">3</ReceivingLanes>
+    <ReceivingLanes IsUserEntered="False" ID="SBR">3</ReceivingLanes>
+    <ReceivingLanes IsUserEntered="False" ID="EBU">2</ReceivingLanes>
+    <ReceivingLanes IsUserEntered="False" ID="WBU">2</ReceivingLanes>
+    <ReceivingLanes IsUserEntered="False" ID="NBU">3</ReceivingLanes>
+    <ReceivingLanes IsUserEntered="False" ID="SBU">3</ReceivingLanes>
+    <WorkZoneActive ID="EB">No</WorkZoneActive>
+    <WorkZoneActive ID="WB">No</WorkZoneActive>
+    <WorkZoneActive ID="NB">No</WorkZoneActive>
+    <WorkZoneActive ID="SB">No</WorkZoneActive>
+    <LeftThruLanesOpen IsUserEntered="False" ID="EB">2</LeftThruLanesOpen>
+    <LeftThruLanesOpen IsUserEntered="False" ID="WB">2</LeftThruLanesOpen>
+    <LeftThruLanesOpen IsUserEntered="False" ID="NB">5</LeftThruLanesOpen>
+    <LeftThruLanesOpen IsUserEntered="False" ID="SB">5</LeftThruLanesOpen>
+    <ApproachWidth IsUserEntered="False" ID="EB">24.0</ApproachWidth>
+    <ApproachWidth IsUserEntered="False" ID="WB">24.0</ApproachWidth>
+    <ApproachWidth IsUserEntered="False" ID="NB">60.0</ApproachWidth>
+    <ApproachWidth IsUserEntered="False" ID="SB">60.0</ApproachWidth>
+    <IntersectionSafety>
+      <K>10.0</K>
+      <IntersectionDepthEW>200</IntersectionDepthEW>
+      <IntersectionDepthNS>200</IntersectionDepthNS>
+      <IsResidentialLandUse>False</IsResidentialLandUse>
+      <SafetyApproach ID="EB">
+        <HasMastArmSignalDisplay>True</HasMastArmSignalDisplay>
+        <HasMedianIsland>True</HasMedianIsland>
+        <HasDetector>False</HasDetector>
+        <HasExitMerge>False</HasExitMerge>
+        <HasBicycle>False</HasBicycle>
+        <HasUpstreamBusBay>False</HasUpstreamBusBay>
+        <HasUpstreamParking>False</HasUpstreamParking>
+      </SafetyApproach>
+      <SafetyApproach ID="WB">
+        <HasMastArmSignalDisplay>True</HasMastArmSignalDisplay>
+        <HasMedianIsland>True</HasMedianIsland>
+        <HasDetector>False</HasDetector>
+        <HasExitMerge>False</HasExitMerge>
+        <HasBicycle>False</HasBicycle>
+        <HasUpstreamBusBay>False</HasUpstreamBusBay>
+        <HasUpstreamParking>False</HasUpstreamParking>
+      </SafetyApproach>
+      <SafetyApproach ID="NB">
+        <HasMastArmSignalDisplay>True</HasMastArmSignalDisplay>
+        <HasMedianIsland>True</HasMedianIsland>
+        <HasDetector>False</HasDetector>
+        <HasExitMerge>False</HasExitMerge>
+        <HasBicycle>False</HasBicycle>
+        <HasUpstreamBusBay>False</HasUpstreamBusBay>
+        <HasUpstreamParking>False</HasUpstreamParking>
+      </SafetyApproach>
+      <SafetyApproach ID="SB">
+        <HasMastArmSignalDisplay>True</HasMastArmSignalDisplay>
+        <HasMedianIsland>True</HasMedianIsland>
+        <HasDetector>False</HasDetector>
+        <HasExitMerge>False</HasExitMerge>
+        <HasBicycle>False</HasBicycle>
+        <HasUpstreamBusBay>False</HasUpstreamBusBay>
+        <HasUpstreamParking>False</HasUpstreamParking>
+      </SafetyApproach>
+    </IntersectionSafety>
+    <AllowOptimization>Yes</AllowOptimization>
+    <UncoordinatedIntersection>No</UncoordinatedIntersection>
+    <PreTimedSignal>No</PreTimedSignal>
+    <Lanes ID="EBL">1</Lanes>
+    <Lanes ID="EBT">1</Lanes>
+    <Lanes ID="EBR">0</Lanes>
+    <Lanes ID="WBL">1</Lanes>
+    <Lanes ID="WBT">1</Lanes>
+    <Lanes ID="WBR">1</Lanes>
+    <Lanes ID="NBL">2</Lanes>
+    <Lanes ID="NBT">3</Lanes>
+    <Lanes ID="NBR">1</Lanes>
+    <Lanes ID="SBL">2</Lanes>
+    <Lanes ID="SBT">3</Lanes>
+    <Lanes ID="SBR">1</Lanes>
+    <Lanes ID="EBU">0</Lanes>
+    <Lanes ID="WBU">0</Lanes>
+    <Lanes ID="NBU">0</Lanes>
+    <Lanes ID="SBU">0</Lanes>
+    <SharedLane ID="EBL">No</SharedLane>
+    <SharedLane ID="EBR">Yes</SharedLane>
+    <SharedLane ID="WBL">No</SharedLane>
+    <SharedLane ID="WBR">No</SharedLane>
+    <SharedLane ID="NBL">No</SharedLane>
+    <SharedLane ID="NBR">No</SharedLane>
+    <SharedLane ID="SBL">No</SharedLane>
+    <SharedLane ID="SBR">No</SharedLane>
+    <OpposingRTLane ID="EBL">No</OpposingRTLane>
+    <OpposingRTLane ID="WBL">No</OpposingRTLane>
+    <OpposingRTLane ID="NBL">No</OpposingRTLane>
+    <OpposingRTLane ID="SBL">No</OpposingRTLane>
+    <TurnBayLength ID="EBL">212</TurnBayLength>
+    <TurnBayLength ID="EBT">0</TurnBayLength>
+    <TurnBayLength ID="EBR">0</TurnBayLength>
+    <TurnBayLength ID="WBL">118</TurnBayLength>
+    <TurnBayLength ID="WBT">0</TurnBayLength>
+    <TurnBayLength ID="WBR">0</TurnBayLength>
+    <TurnBayLength ID="NBL">256</TurnBayLength>
+    <TurnBayLength ID="NBT">0</TurnBayLength>
+    <TurnBayLength ID="NBR">0</TurnBayLength>
+    <TurnBayLength ID="SBL">344</TurnBayLength>
+    <TurnBayLength ID="SBT">0</TurnBayLength>
+    <TurnBayLength ID="SBR">0</TurnBayLength>
+    <TurnBayLength ID="EBU">0</TurnBayLength>
+    <TurnBayLength ID="WBU">0</TurnBayLength>
+    <TurnBayLength ID="NBU">0</TurnBayLength>
+    <TurnBayLength ID="SBU">0</TurnBayLength>
+    <StopLineDetectorLength ID="EBL">40</StopLineDetectorLength>
+    <StopLineDetectorLength ID="EBT">40</StopLineDetectorLength>
+    <StopLineDetectorLength ID="EBR">40</StopLineDetectorLength>
+    <StopLineDetectorLength ID="WBL">40</StopLineDetectorLength>
+    <StopLineDetectorLength ID="WBT">40</StopLineDetectorLength>
+    <StopLineDetectorLength ID="WBR">40</StopLineDetectorLength>
+    <StopLineDetectorLength ID="NBL">40</StopLineDetectorLength>
+    <StopLineDetectorLength ID="NBT">40</StopLineDetectorLength>
+    <StopLineDetectorLength ID="NBR">40</StopLineDetectorLength>
+    <StopLineDetectorLength ID="SBL">40</StopLineDetectorLength>
+    <StopLineDetectorLength ID="SBT">40</StopLineDetectorLength>
+    <StopLineDetectorLength ID="SBR">40</StopLineDetectorLength>
+    <StopLineDetectorLength ID="EBU">40</StopLineDetectorLength>
+    <StopLineDetectorLength ID="WBU">40</StopLineDetectorLength>
+    <StopLineDetectorLength ID="NBU">40</StopLineDetectorLength>
+    <StopLineDetectorLength ID="SBU">40</StopLineDetectorLength>
+    <Grade ID="EBT">0</Grade>
+    <Grade ID="WBT">0</Grade>
+    <Grade ID="NBT">0</Grade>
+    <Grade ID="SBT">0</Grade>
+    <SpeedLimit ID="EBT">35</SpeedLimit>
+    <SpeedLimit ID="WBT">35</SpeedLimit>
+    <SpeedLimit ID="NBT">35</SpeedLimit>
+    <SpeedLimit ID="SBT">35</SpeedLimit>
+    <LaneWidth ID="EBL">12.0</LaneWidth>
+    <LaneWidth ID="EBT">12.0</LaneWidth>
+    <LaneWidth ID="EBR">12.0</LaneWidth>
+    <LaneWidth ID="WBL">12.0</LaneWidth>
+    <LaneWidth ID="WBT">12.0</LaneWidth>
+    <LaneWidth ID="WBR">12.0</LaneWidth>
+    <LaneWidth ID="NBL">12.0</LaneWidth>
+    <LaneWidth ID="NBT">12.0</LaneWidth>
+    <LaneWidth ID="NBR">12.0</LaneWidth>
+    <LaneWidth ID="SBL">12.0</LaneWidth>
+    <LaneWidth ID="SBT">12.0</LaneWidth>
+    <LaneWidth ID="SBR">12.0</LaneWidth>
+    <LaneWidth ID="EBU">12.0</LaneWidth>
+    <LaneWidth ID="WBU">12.0</LaneWidth>
+    <LaneWidth ID="NBU">12.0</LaneWidth>
+    <LaneWidth ID="SBU">12.0</LaneWidth>
+    <ArrivalType ID="EBL">3</ArrivalType>
+    <ArrivalType ID="EBT">3</ArrivalType>
+    <ArrivalType ID="EBR">3</ArrivalType>
+    <ArrivalType ID="WBL">3</ArrivalType>
+    <ArrivalType ID="WBT">3</ArrivalType>
+    <ArrivalType ID="WBR">3</ArrivalType>
+    <ArrivalType ID="NBL">3</ArrivalType>
+    <ArrivalType ID="NBT">3</ArrivalType>
+    <ArrivalType ID="NBR">3</ArrivalType>
+    <ArrivalType ID="SBL">3</ArrivalType>
+    <ArrivalType ID="SBT">3</ArrivalType>
+    <ArrivalType ID="SBR">3</ArrivalType>
+    <ArrivalType ID="EBU">3</ArrivalType>
+    <ArrivalType ID="WBU">3</ArrivalType>
+    <ArrivalType ID="NBU">3</ArrivalType>
+    <ArrivalType ID="SBU">3</ArrivalType>
+    <PresenceOfParking ID="EBL">No</PresenceOfParking>
+    <PresenceOfParking ID="EBT">No</PresenceOfParking>
+    <PresenceOfParking ID="EBR">No</PresenceOfParking>
+    <PresenceOfParking ID="WBL">No</PresenceOfParking>
+    <PresenceOfParking ID="WBT">No</PresenceOfParking>
+    <PresenceOfParking ID="WBR">No</PresenceOfParking>
+    <PresenceOfParking ID="NBL">No</PresenceOfParking>
+    <PresenceOfParking ID="NBT">No</PresenceOfParking>
+    <PresenceOfParking ID="NBR">No</PresenceOfParking>
+    <PresenceOfParking ID="SBL">No</PresenceOfParking>
+    <PresenceOfParking ID="SBT">No</PresenceOfParking>
+    <PresenceOfParking ID="SBR">No</PresenceOfParking>
+    <PresenceOfParking ID="EBU">No</PresenceOfParking>
+    <PresenceOfParking ID="WBU">No</PresenceOfParking>
+    <PresenceOfParking ID="NBU">No</PresenceOfParking>
+    <PresenceOfParking ID="SBU">No</PresenceOfParking>
+    <InitialQueue ID="EBL">0</InitialQueue>
+    <InitialQueue ID="EBT">0</InitialQueue>
+    <InitialQueue ID="EBR">0</InitialQueue>
+    <InitialQueue ID="WBL">0</InitialQueue>
+    <InitialQueue ID="WBT">0</InitialQueue>
+    <InitialQueue ID="WBR">0</InitialQueue>
+    <InitialQueue ID="NBL">0</InitialQueue>
+    <InitialQueue ID="NBT">0</InitialQueue>
+    <InitialQueue ID="NBR">0</InitialQueue>
+    <InitialQueue ID="SBL">0</InitialQueue>
+    <InitialQueue ID="SBT">0</InitialQueue>
+    <InitialQueue ID="SBR">0</InitialQueue>
+    <InitialQueue ID="EBU">0</InitialQueue>
+    <InitialQueue ID="WBU">0</InitialQueue>
+    <InitialQueue ID="NBU">0</InitialQueue>
+    <InitialQueue ID="SBU">0</InitialQueue>
+    <Movement ID="EBL">LT</Movement>
+    <Movement ID="EBT">TH+RT</Movement>
+    <Movement ID="WBL">LT</Movement>
+    <Movement ID="WBT">LT+TH+RT</Movement>
+    <Movement ID="NBL">LT</Movement>
+    <Movement ID="NBT">TH+RT</Movement>
+    <Movement ID="SBL">LT</Movement>
+    <Movement ID="SBT">TH+RT</Movement>
+    <LeadLag ID="EBL">Lead</LeadLag>
+    <LeadLag ID="EBT">Lead</LeadLag>
+    <LeadLag ID="WBL">Lead</LeadLag>
+    <LeadLag ID="WBT">Lead</LeadLag>
+    <LeadLag ID="NBL">Lead</LeadLag>
+    <LeadLag ID="NBT">Lead</LeadLag>
+    <LeadLag ID="SBL">Lead</LeadLag>
+    <LeadLag ID="SBT">Lead</LeadLag>
+    <PassageTime ID="EBL">2.0</PassageTime>
+    <PassageTime ID="EBT">2.0</PassageTime>
+    <PassageTime ID="WBL">2.0</PassageTime>
+    <PassageTime ID="WBT">2.0</PassageTime>
+    <PassageTime ID="NBL">2.0</PassageTime>
+    <PassageTime ID="NBT">2.0</PassageTime>
+    <PassageTime ID="SBL">2.0</PassageTime>
+    <PassageTime ID="SBT">2.0</PassageTime>
+    <MinimumGreen ID="EBL">6</MinimumGreen>
+    <MinimumGreen ID="EBT">6</MinimumGreen>
+    <MinimumGreen ID="WBL">6</MinimumGreen>
+    <MinimumGreen ID="WBT">6</MinimumGreen>
+    <MinimumGreen ID="NBL">6</MinimumGreen>
+    <MinimumGreen ID="NBT">6</MinimumGreen>
+    <MinimumGreen ID="SBL">6</MinimumGreen>
+    <MinimumGreen ID="SBT">6</MinimumGreen>
+    <YellowChangeTime ID="EBL">3.3</YellowChangeTime>
+    <YellowChangeTime ID="EBT">3.2</YellowChangeTime>
+    <YellowChangeTime ID="WBL">3.1</YellowChangeTime>
+    <YellowChangeTime ID="WBT">2.5</YellowChangeTime>
+    <YellowChangeTime ID="NBL">4.0</YellowChangeTime>
+    <YellowChangeTime ID="NBT">4.0</YellowChangeTime>
+    <YellowChangeTime ID="SBL">4.3</YellowChangeTime>
+    <YellowChangeTime ID="SBT">3.6</YellowChangeTime>
+    <AllRedClearanceTime ID="EBL">0.0</AllRedClearanceTime>
+    <AllRedClearanceTime ID="EBT">0.0</AllRedClearanceTime>
+    <AllRedClearanceTime ID="WBL">0.0</AllRedClearanceTime>
+    <AllRedClearanceTime ID="WBT">0.0</AllRedClearanceTime>
+    <AllRedClearanceTime ID="NBL">0.0</AllRedClearanceTime>
+    <AllRedClearanceTime ID="NBT">0.0</AllRedClearanceTime>
+    <AllRedClearanceTime ID="SBL">0.0</AllRedClearanceTime>
+    <AllRedClearanceTime ID="SBT">0.0</AllRedClearanceTime>
+    <PhaseSplits ID="EBL">20.4</PhaseSplits>
+    <PhaseSplits ID="EBT">33.1</PhaseSplits>
+    <PhaseSplits ID="WBL">16.7</PhaseSplits>
+    <PhaseSplits ID="WBT">29.4</PhaseSplits>
+    <PhaseSplits ID="NBL">33.0</PhaseSplits>
+    <PhaseSplits ID="NBT">92.6</PhaseSplits>
+    <PhaseSplits ID="SBL">17.6</PhaseSplits>
+    <PhaseSplits ID="SBT">77.2</PhaseSplits>
+    <Recall ID="EBL">Off</Recall>
+    <Recall ID="EBT">Off</Recall>
+    <Recall ID="WBL">Off</Recall>
+    <Recall ID="WBT">Off</Recall>
+    <Recall ID="NBL">Off</Recall>
+    <Recall ID="NBT">Min</Recall>
+    <Recall ID="SBL">Off</Recall>
+    <Recall ID="SBT">Min</Recall>
+    <DualEntry ID="EBL">No</DualEntry>
+    <DualEntry ID="EBT">Yes</DualEntry>
+    <DualEntry ID="WBL">No</DualEntry>
+    <DualEntry ID="WBT">Yes</DualEntry>
+    <DualEntry ID="NBL">No</DualEntry>
+    <DualEntry ID="NBT">Yes</DualEntry>
+    <DualEntry ID="SBL">No</DualEntry>
+    <DualEntry ID="SBT">Yes</DualEntry>
+    <PhaseProtectedRightTurn ID="EBL">False</PhaseProtectedRightTurn>
+    <PhaseProtectedRightTurn ID="EBT">False</PhaseProtectedRightTurn>
+    <PhaseProtectedRightTurn ID="EBR">False</PhaseProtectedRightTurn>
+    <PhaseProtectedRightTurn ID="WBL">False</PhaseProtectedRightTurn>
+    <PhaseProtectedRightTurn ID="WBT">False</PhaseProtectedRightTurn>
+    <PhaseProtectedRightTurn ID="WBR">False</PhaseProtectedRightTurn>
+    <PhaseProtectedRightTurn ID="NBL">False</PhaseProtectedRightTurn>
+    <PhaseProtectedRightTurn ID="NBT">False</PhaseProtectedRightTurn>
+    <PhaseProtectedRightTurn ID="NBR">False</PhaseProtectedRightTurn>
+    <PhaseProtectedRightTurn ID="SBL">False</PhaseProtectedRightTurn>
+    <PhaseProtectedRightTurn ID="SBT">False</PhaseProtectedRightTurn>
+    <PhaseProtectedRightTurn ID="SBR">False</PhaseProtectedRightTurn>
+    <PedModeSig_MidSegmentSpeed ID="EB">0</PedModeSig_MidSegmentSpeed>
+    <PedModeSig_MidSegmentSpeed ID="WB">0</PedModeSig_MidSegmentSpeed>
+    <PedModeSig_MidSegmentSpeed ID="NB">0</PedModeSig_MidSegmentSpeed>
+    <PedModeSig_MidSegmentSpeed ID="SB">0</PedModeSig_MidSegmentSpeed>
+    <PedModeSig_NumberRightTurnIslands ID="EB">0</PedModeSig_NumberRightTurnIslands>
+    <PedModeSig_NumberRightTurnIslands ID="WB">0</PedModeSig_NumberRightTurnIslands>
+    <PedModeSig_NumberRightTurnIslands ID="NB">0</PedModeSig_NumberRightTurnIslands>
+    <PedModeSig_NumberRightTurnIslands ID="SB">0</PedModeSig_NumberRightTurnIslands>
+    <PedModeSig_WalkwayWidth ID="EB">9.0</PedModeSig_WalkwayWidth>
+    <PedModeSig_WalkwayWidth ID="WB">9.0</PedModeSig_WalkwayWidth>
+    <PedModeSig_WalkwayWidth ID="NB">9.0</PedModeSig_WalkwayWidth>
+    <PedModeSig_WalkwayWidth ID="SB">9.0</PedModeSig_WalkwayWidth>
+    <PedModeSig_CrosswalkWidth ID="EB">12</PedModeSig_CrosswalkWidth>
+    <PedModeSig_CrosswalkWidth ID="WB">12</PedModeSig_CrosswalkWidth>
+    <PedModeSig_CrosswalkWidth ID="NB">12</PedModeSig_CrosswalkWidth>
+    <PedModeSig_CrosswalkWidth ID="SB">12</PedModeSig_CrosswalkWidth>
+    <PedModeSig_CrosswalkLength ID="EB">0</PedModeSig_CrosswalkLength>
+    <PedModeSig_CrosswalkLength ID="WB">0</PedModeSig_CrosswalkLength>
+    <PedModeSig_CrosswalkLength ID="NB">0</PedModeSig_CrosswalkLength>
+    <PedModeSig_CrosswalkLength ID="SB">0</PedModeSig_CrosswalkLength>
+    <PedModeSig_CornerRadius ID="EB">25</PedModeSig_CornerRadius>
+    <PedModeSig_CornerRadius ID="WB">25</PedModeSig_CornerRadius>
+    <PedModeSig_CornerRadius ID="NB">25</PedModeSig_CornerRadius>
+    <PedModeSig_CornerRadius ID="SB">25</PedModeSig_CornerRadius>
+    <PedModeSig_RestInWalkEnabled ID="EB">No</PedModeSig_RestInWalkEnabled>
+    <PedModeSig_RestInWalkEnabled ID="WB">No</PedModeSig_RestInWalkEnabled>
+    <PedModeSig_RestInWalkEnabled ID="NB">No</PedModeSig_RestInWalkEnabled>
+    <PedModeSig_RestInWalkEnabled ID="SB">No</PedModeSig_RestInWalkEnabled>
+    <PedModeSig_PedestrianSigHead ID="EB">No</PedModeSig_PedestrianSigHead>
+    <PedModeSig_PedestrianSigHead ID="WB">No</PedModeSig_PedestrianSigHead>
+    <PedModeSig_PedestrianSigHead ID="NB">No</PedModeSig_PedestrianSigHead>
+    <PedModeSig_PedestrianSigHead ID="SB">No</PedModeSig_PedestrianSigHead>
+    <PedModeSig_CrosswalkClosed ID="EB">No</PedModeSig_CrosswalkClosed>
+    <PedModeSig_CrosswalkClosed ID="WB">No</PedModeSig_CrosswalkClosed>
+    <PedModeSig_CrosswalkClosed ID="NB">No</PedModeSig_CrosswalkClosed>
+    <PedModeSig_CrosswalkClosed ID="SB">No</PedModeSig_CrosswalkClosed>
+    <BicycleModeSig_OnStreetParkingOccupied ID="EB">0.50</BicycleModeSig_OnStreetParkingOccupied>
+    <BicycleModeSig_OnStreetParkingOccupied ID="WB">0.50</BicycleModeSig_OnStreetParkingOccupied>
+    <BicycleModeSig_OnStreetParkingOccupied ID="NB">0.50</BicycleModeSig_OnStreetParkingOccupied>
+    <BicycleModeSig_OnStreetParkingOccupied ID="SB">0.50</BicycleModeSig_OnStreetParkingOccupied>
+    <BicycleModeSig_CurbToCurbStreetWidth ID="EB">0</BicycleModeSig_CurbToCurbStreetWidth>
+    <BicycleModeSig_CurbToCurbStreetWidth ID="WB">0</BicycleModeSig_CurbToCurbStreetWidth>
+    <BicycleModeSig_CurbToCurbStreetWidth ID="NB">0</BicycleModeSig_CurbToCurbStreetWidth>
+    <BicycleModeSig_CurbToCurbStreetWidth ID="SB">0</BicycleModeSig_CurbToCurbStreetWidth>
+    <BicycleModeSig_OutsideThruLaneWidth ID="EB">12</BicycleModeSig_OutsideThruLaneWidth>
+    <BicycleModeSig_OutsideThruLaneWidth ID="WB">12</BicycleModeSig_OutsideThruLaneWidth>
+    <BicycleModeSig_OutsideThruLaneWidth ID="NB">12</BicycleModeSig_OutsideThruLaneWidth>
+    <BicycleModeSig_OutsideThruLaneWidth ID="SB">12</BicycleModeSig_OutsideThruLaneWidth>
+    <BicycleModeSig_BicycleLaneWidth ID="EB">5.0</BicycleModeSig_BicycleLaneWidth>
+    <BicycleModeSig_BicycleLaneWidth ID="WB">5.0</BicycleModeSig_BicycleLaneWidth>
+    <BicycleModeSig_BicycleLaneWidth ID="NB">5.0</BicycleModeSig_BicycleLaneWidth>
+    <BicycleModeSig_BicycleLaneWidth ID="SB">5.0</BicycleModeSig_BicycleLaneWidth>
+    <BicycleModeSig_PavedShoulderWidth ID="EB">2.0</BicycleModeSig_PavedShoulderWidth>
+    <BicycleModeSig_PavedShoulderWidth ID="WB">2.0</BicycleModeSig_PavedShoulderWidth>
+    <BicycleModeSig_PavedShoulderWidth ID="NB">2.0</BicycleModeSig_PavedShoulderWidth>
+    <BicycleModeSig_PavedShoulderWidth ID="SB">2.0</BicycleModeSig_PavedShoulderWidth>
+    <BicycleModeSig_PresenceOfCurb ID="EB">No</BicycleModeSig_PresenceOfCurb>
+    <BicycleModeSig_PresenceOfCurb ID="WB">No</BicycleModeSig_PresenceOfCurb>
+    <BicycleModeSig_PresenceOfCurb ID="NB">No</BicycleModeSig_PresenceOfCurb>
+    <BicycleModeSig_PresenceOfCurb ID="SB">No</BicycleModeSig_PresenceOfCurb>
+    <SimultaneousGapOut ID="East/West">On</SimultaneousGapOut>
+    <DallasPhasing ID="East/West">Off</DallasPhasing>
+    <FreeFlowSpeed ID="Segment 1">35.0</FreeFlowSpeed>
+    <Length ID="Segment 1">1000</Length>
+    <SimultaneousGapOut ID="North/South">On</SimultaneousGapOut>
+    <DallasPhasing ID="North/South">Off</DallasPhasing>
+    <FreeFlowSpeed ID="Segment 2">35.0</FreeFlowSpeed>
+    <Length ID="Segment 2">1000</Length>
+    <Period ID="1">
+      <StartUpLostTime ID="EBL">2.0</StartUpLostTime>
+      <StartUpLostTime ID="EBT">2.0</StartUpLostTime>
+      <StartUpLostTime ID="EBR">2.0</StartUpLostTime>
+      <StartUpLostTime ID="WBL">2.0</StartUpLostTime>
+      <StartUpLostTime ID="WBT">2.0</StartUpLostTime>
+      <StartUpLostTime ID="WBR">2.0</StartUpLostTime>
+      <StartUpLostTime ID="NBL">2.0</StartUpLostTime>
+      <StartUpLostTime ID="NBT">2.0</StartUpLostTime>
+      <StartUpLostTime ID="NBR">2.0</StartUpLostTime>
+      <StartUpLostTime ID="SBL">2.0</StartUpLostTime>
+      <StartUpLostTime ID="SBT">2.0</StartUpLostTime>
+      <StartUpLostTime ID="SBR">2.0</StartUpLostTime>
+      <StartUpLostTime ID="EBU">2.0</StartUpLostTime>
+      <StartUpLostTime ID="WBU">2.0</StartUpLostTime>
+      <StartUpLostTime ID="NBU">2.0</StartUpLostTime>
+      <StartUpLostTime ID="SBU">2.0</StartUpLostTime>
+      <EndUseOfIntergreenPeriod ID="EBL">2.0</EndUseOfIntergreenPeriod>
+      <EndUseOfIntergreenPeriod ID="EBT">2.0</EndUseOfIntergreenPeriod>
+      <EndUseOfIntergreenPeriod ID="EBR">2.0</EndUseOfIntergreenPeriod>
+      <EndUseOfIntergreenPeriod ID="WBL">2.0</EndUseOfIntergreenPeriod>
+      <EndUseOfIntergreenPeriod ID="WBT">2.0</EndUseOfIntergreenPeriod>
+      <EndUseOfIntergreenPeriod ID="WBR">2.0</EndUseOfIntergreenPeriod>
+      <EndUseOfIntergreenPeriod ID="NBL">2.0</EndUseOfIntergreenPeriod>
+      <EndUseOfIntergreenPeriod ID="NBT">2.0</EndUseOfIntergreenPeriod>
+      <EndUseOfIntergreenPeriod ID="NBR">2.0</EndUseOfIntergreenPeriod>
+      <EndUseOfIntergreenPeriod ID="SBL">2.0</EndUseOfIntergreenPeriod>
+      <EndUseOfIntergreenPeriod ID="SBT">2.0</EndUseOfIntergreenPeriod>
+      <EndUseOfIntergreenPeriod ID="SBR">2.0</EndUseOfIntergreenPeriod>
+      <EndUseOfIntergreenPeriod ID="EBU">2.0</EndUseOfIntergreenPeriod>
+      <EndUseOfIntergreenPeriod ID="WBU">2.0</EndUseOfIntergreenPeriod>
+      <EndUseOfIntergreenPeriod ID="NBU">2.0</EndUseOfIntergreenPeriod>
+      <EndUseOfIntergreenPeriod ID="SBU">2.0</EndUseOfIntergreenPeriod>
+      <SaturationFlowRate ID="EBL">1900</SaturationFlowRate>
+      <SaturationFlowRate ID="EBT">1900</SaturationFlowRate>
+      <SaturationFlowRate ID="EBR">1900</SaturationFlowRate>
+      <SaturationFlowRate ID="WBL">1900</SaturationFlowRate>
+      <SaturationFlowRate ID="WBT">1900</SaturationFlowRate>
+      <SaturationFlowRate ID="WBR">1900</SaturationFlowRate>
+      <SaturationFlowRate ID="NBL">1900</SaturationFlowRate>
+      <SaturationFlowRate ID="NBT">1900</SaturationFlowRate>
+      <SaturationFlowRate ID="NBR">1900</SaturationFlowRate>
+      <SaturationFlowRate ID="SBL">1900</SaturationFlowRate>
+      <SaturationFlowRate ID="SBT">1900</SaturationFlowRate>
+      <SaturationFlowRate ID="SBR">1900</SaturationFlowRate>
+      <SaturationFlowRate ID="EBU">1900</SaturationFlowRate>
+      <SaturationFlowRate ID="WBU">1900</SaturationFlowRate>
+      <SaturationFlowRate ID="NBU">1900</SaturationFlowRate>
+      <SaturationFlowRate ID="SBU">1900</SaturationFlowRate>
+      <UpstreamFilteringMeteringFactor IsUserEntered="False" ID="EBT">1.00</UpstreamFilteringMeteringFactor>
+      <UpstreamFilteringMeteringFactor IsUserEntered="False" ID="WBT">1.00</UpstreamFilteringMeteringFactor>
+      <UpstreamFilteringMeteringFactor IsUserEntered="False" ID="NBT">1.00</UpstreamFilteringMeteringFactor>
+      <UpstreamFilteringMeteringFactor IsUserEntered="False" ID="SBT">0.91</UpstreamFilteringMeteringFactor>
+      <IntersectionProportionArrivingOnGreen_20 IsUserEntered="False" ID="EBL">0.08</IntersectionProportionArrivingOnGreen_20>
+      <IntersectionProportionArrivingOnGreen_20 IsUserEntered="False" ID="EBT">0.55</IntersectionProportionArrivingOnGreen_20>
+      <IntersectionProportionArrivingOnGreen_20 IsUserEntered="False" ID="EBR">0.09</IntersectionProportionArrivingOnGreen_20>
+      <IntersectionProportionArrivingOnGreen_20 IsUserEntered="False" ID="WBL">0.19</IntersectionProportionArrivingOnGreen_20>
+      <IntersectionProportionArrivingOnGreen_20 IsUserEntered="False" ID="WBT">0.18</IntersectionProportionArrivingOnGreen_20>
+      <IntersectionProportionArrivingOnGreen_20 IsUserEntered="False" ID="WBR">0.46</IntersectionProportionArrivingOnGreen_20>
+      <IntersectionProportionArrivingOnGreen_20 IsUserEntered="False" ID="NBL">0.11</IntersectionProportionArrivingOnGreen_20>
+      <IntersectionProportionArrivingOnGreen_20 IsUserEntered="False" ID="NBT">0.16</IntersectionProportionArrivingOnGreen_20>
+      <IntersectionProportionArrivingOnGreen_20 IsUserEntered="False" ID="NBR">0.00</IntersectionProportionArrivingOnGreen_20>
+      <IntersectionProportionArrivingOnGreen_20 IsUserEntered="False" ID="SBL">0.00</IntersectionProportionArrivingOnGreen_20>
+      <IntersectionProportionArrivingOnGreen_20 IsUserEntered="False" ID="SBT">0.00</IntersectionProportionArrivingOnGreen_20>
+      <IntersectionProportionArrivingOnGreen_20 IsUserEntered="False" ID="SBR">0.55</IntersectionProportionArrivingOnGreen_20>
+      <IntersectionProportionArrivingOnGreen_20 IsUserEntered="False" ID="EBU">0.00</IntersectionProportionArrivingOnGreen_20>
+      <IntersectionProportionArrivingOnGreen_20 IsUserEntered="False" ID="WBU">0.19</IntersectionProportionArrivingOnGreen_20>
+      <IntersectionProportionArrivingOnGreen_20 IsUserEntered="False" ID="NBU">0.00</IntersectionProportionArrivingOnGreen_20>
+      <IntersectionProportionArrivingOnGreen_20 IsUserEntered="False" ID="SBU">0.46</IntersectionProportionArrivingOnGreen_20>
+      <IntersectionProportionArrivingOnGreen_21 IsUserEntered="False" ID="EBL">0.00</IntersectionProportionArrivingOnGreen_21>
+      <IntersectionProportionArrivingOnGreen_21 IsUserEntered="False" ID="EBT">0.55</IntersectionProportionArrivingOnGreen_21>
+      <IntersectionProportionArrivingOnGreen_21 IsUserEntered="False" ID="EBR">0.09</IntersectionProportionArrivingOnGreen_21>
+      <IntersectionProportionArrivingOnGreen_21 IsUserEntered="False" ID="WBL">0.19</IntersectionProportionArrivingOnGreen_21>
+      <IntersectionProportionArrivingOnGreen_21 IsUserEntered="False" ID="WBT">0.18</IntersectionProportionArrivingOnGreen_21>
+      <IntersectionProportionArrivingOnGreen_21 IsUserEntered="False" ID="WBR">0.73</IntersectionProportionArrivingOnGreen_21>
+      <IntersectionProportionArrivingOnGreen_21 IsUserEntered="False" ID="NBL">0.11</IntersectionProportionArrivingOnGreen_21>
+      <IntersectionProportionArrivingOnGreen_21 IsUserEntered="False" ID="NBT">0.16</IntersectionProportionArrivingOnGreen_21>
+      <IntersectionProportionArrivingOnGreen_21 IsUserEntered="False" ID="NBR">0.00</IntersectionProportionArrivingOnGreen_21>
+      <IntersectionProportionArrivingOnGreen_21 IsUserEntered="False" ID="SBL">0.00</IntersectionProportionArrivingOnGreen_21>
+      <IntersectionProportionArrivingOnGreen_21 IsUserEntered="False" ID="SBT">0.00</IntersectionProportionArrivingOnGreen_21>
+      <IntersectionProportionArrivingOnGreen_21 IsUserEntered="False" ID="SBR">0.55</IntersectionProportionArrivingOnGreen_21>
+      <IntersectionProportionArrivingOnGreen_21 IsUserEntered="False" ID="EBU">0.00</IntersectionProportionArrivingOnGreen_21>
+      <IntersectionProportionArrivingOnGreen_21 IsUserEntered="False" ID="WBU">0.19</IntersectionProportionArrivingOnGreen_21>
+      <IntersectionProportionArrivingOnGreen_21 IsUserEntered="False" ID="NBU">0.00</IntersectionProportionArrivingOnGreen_21>
+      <IntersectionProportionArrivingOnGreen_21 IsUserEntered="False" ID="SBU">0.76</IntersectionProportionArrivingOnGreen_21>
+      <Volume ID="EBL">124</Volume>
+      <Volume ID="EBT">32</Volume>
+      <Volume ID="EBR">125</Volume>
+      <Volume ID="WBL">194</Volume>
+      <Volume ID="WBT">55</Volume>
+      <Volume ID="WBR">138</Volume>
+      <Volume ID="NBL">267</Volume>
+      <Volume ID="NBT">1025</Volume>
+      <Volume ID="NBR">149</Volume>
+      <Volume ID="SBL">183</Volume>
+      <Volume ID="SBT">1144</Volume>
+      <Volume ID="SBR">651</Volume>
+      <Volume ID="EBU">0</Volume>
+      <Volume ID="WBU">0</Volume>
+      <Volume ID="NBU">0</Volume>
+      <Volume ID="SBU">0</Volume>
+      <HeavyVehicles ID="EBL">0</HeavyVehicles>
+      <HeavyVehicles ID="EBT">0</HeavyVehicles>
+      <HeavyVehicles ID="EBR">0</HeavyVehicles>
+      <HeavyVehicles ID="WBL">0</HeavyVehicles>
+      <HeavyVehicles ID="WBT">0</HeavyVehicles>
+      <HeavyVehicles ID="WBR">0</HeavyVehicles>
+      <HeavyVehicles ID="NBL">0</HeavyVehicles>
+      <HeavyVehicles ID="NBT">0</HeavyVehicles>
+      <HeavyVehicles ID="NBR">0</HeavyVehicles>
+      <HeavyVehicles ID="SBL">0</HeavyVehicles>
+      <HeavyVehicles ID="SBT">0</HeavyVehicles>
+      <HeavyVehicles ID="SBR">0</HeavyVehicles>
+      <HeavyVehicles ID="EBU">0</HeavyVehicles>
+      <HeavyVehicles ID="WBU">0</HeavyVehicles>
+      <HeavyVehicles ID="NBU">0</HeavyVehicles>
+      <HeavyVehicles ID="SBU">0</HeavyVehicles>
+      <BusesStopping ID="EBL">0</BusesStopping>
+      <BusesStopping ID="EBT">0</BusesStopping>
+      <BusesStopping ID="EBR">0</BusesStopping>
+      <BusesStopping ID="WBL">0</BusesStopping>
+      <BusesStopping ID="WBT">0</BusesStopping>
+      <BusesStopping ID="WBR">0</BusesStopping>
+      <BusesStopping ID="NBL">0</BusesStopping>
+      <BusesStopping ID="NBT">0</BusesStopping>
+      <BusesStopping ID="NBR">0</BusesStopping>
+      <BusesStopping ID="SBL">0</BusesStopping>
+      <BusesStopping ID="SBT">0</BusesStopping>
+      <BusesStopping ID="SBR">0</BusesStopping>
+      <BusesStopping ID="EBU">0</BusesStopping>
+      <BusesStopping ID="WBU">0</BusesStopping>
+      <BusesStopping ID="NBU">0</BusesStopping>
+      <BusesStopping ID="SBU">0</BusesStopping>
+      <HeaviestLaneVolume ID="EBL">0</HeaviestLaneVolume>
+      <HeaviestLaneVolume ID="EBT">0</HeaviestLaneVolume>
+      <HeaviestLaneVolume ID="EBR">0</HeaviestLaneVolume>
+      <HeaviestLaneVolume ID="WBL">0</HeaviestLaneVolume>
+      <HeaviestLaneVolume ID="WBT">0</HeaviestLaneVolume>
+      <HeaviestLaneVolume ID="WBR">0</HeaviestLaneVolume>
+      <HeaviestLaneVolume ID="NBL">0</HeaviestLaneVolume>
+      <HeaviestLaneVolume ID="NBT">0</HeaviestLaneVolume>
+      <HeaviestLaneVolume ID="NBR">0</HeaviestLaneVolume>
+      <HeaviestLaneVolume ID="SBL">0</HeaviestLaneVolume>
+      <HeaviestLaneVolume ID="SBT">0</HeaviestLaneVolume>
+      <HeaviestLaneVolume ID="SBR">0</HeaviestLaneVolume>
+      <HeaviestLaneVolume ID="EBU">0</HeaviestLaneVolume>
+      <HeaviestLaneVolume ID="WBU">0</HeaviestLaneVolume>
+      <HeaviestLaneVolume ID="NBU">0</HeaviestLaneVolume>
+      <HeaviestLaneVolume ID="SBU">0</HeaviestLaneVolume>
+      <ParkingManeuvers ID="EBL">0</ParkingManeuvers>
+      <ParkingManeuvers ID="EBT">0</ParkingManeuvers>
+      <ParkingManeuvers ID="EBR">0</ParkingManeuvers>
+      <ParkingManeuvers ID="WBL">0</ParkingManeuvers>
+      <ParkingManeuvers ID="WBT">0</ParkingManeuvers>
+      <ParkingManeuvers ID="WBR">0</ParkingManeuvers>
+      <ParkingManeuvers ID="NBL">0</ParkingManeuvers>
+      <ParkingManeuvers ID="NBT">0</ParkingManeuvers>
+      <ParkingManeuvers ID="NBR">0</ParkingManeuvers>
+      <ParkingManeuvers ID="SBL">0</ParkingManeuvers>
+      <ParkingManeuvers ID="SBT">0</ParkingManeuvers>
+      <ParkingManeuvers ID="SBR">0</ParkingManeuvers>
+      <ParkingManeuvers ID="EBU">0</ParkingManeuvers>
+      <ParkingManeuvers ID="WBU">0</ParkingManeuvers>
+      <ParkingManeuvers ID="NBU">0</ParkingManeuvers>
+      <ParkingManeuvers ID="SBU">0</ParkingManeuvers>
+      <PercentTurnsInSharedLane ID="EBL">0</PercentTurnsInSharedLane>
+      <PercentTurnsInSharedLane ID="EBT">0</PercentTurnsInSharedLane>
+      <PercentTurnsInSharedLane ID="EBR">0</PercentTurnsInSharedLane>
+      <PercentTurnsInSharedLane ID="WBL">0</PercentTurnsInSharedLane>
+      <PercentTurnsInSharedLane ID="WBT">0</PercentTurnsInSharedLane>
+      <PercentTurnsInSharedLane ID="WBR">0</PercentTurnsInSharedLane>
+      <PercentTurnsInSharedLane ID="NBL">0</PercentTurnsInSharedLane>
+      <PercentTurnsInSharedLane ID="NBT">0</PercentTurnsInSharedLane>
+      <PercentTurnsInSharedLane ID="NBR">0</PercentTurnsInSharedLane>
+      <PercentTurnsInSharedLane ID="SBL">0</PercentTurnsInSharedLane>
+      <PercentTurnsInSharedLane ID="SBT">0</PercentTurnsInSharedLane>
+      <PercentTurnsInSharedLane ID="SBR">0</PercentTurnsInSharedLane>
+      <PercentTurnsInSharedLane ID="EBU">0</PercentTurnsInSharedLane>
+      <PercentTurnsInSharedLane ID="WBU">0</PercentTurnsInSharedLane>
+      <PercentTurnsInSharedLane ID="NBU">0</PercentTurnsInSharedLane>
+      <PercentTurnsInSharedLane ID="SBU">0</PercentTurnsInSharedLane>
+      <PercentUnopposedLeftTurns ID="EBL">0</PercentUnopposedLeftTurns>
+      <PercentUnopposedLeftTurns ID="EBT">0</PercentUnopposedLeftTurns>
+      <PercentUnopposedLeftTurns ID="EBR">0</PercentUnopposedLeftTurns>
+      <PercentUnopposedLeftTurns ID="WBL">0</PercentUnopposedLeftTurns>
+      <PercentUnopposedLeftTurns ID="WBT">0</PercentUnopposedLeftTurns>
+      <PercentUnopposedLeftTurns ID="WBR">0</PercentUnopposedLeftTurns>
+      <PercentUnopposedLeftTurns ID="NBL">0</PercentUnopposedLeftTurns>
+      <PercentUnopposedLeftTurns ID="NBT">0</PercentUnopposedLeftTurns>
+      <PercentUnopposedLeftTurns ID="NBR">0</PercentUnopposedLeftTurns>
+      <PercentUnopposedLeftTurns ID="SBL">0</PercentUnopposedLeftTurns>
+      <PercentUnopposedLeftTurns ID="SBT">0</PercentUnopposedLeftTurns>
+      <PercentUnopposedLeftTurns ID="SBR">0</PercentUnopposedLeftTurns>
+      <PercentUnopposedLeftTurns ID="EBU">0</PercentUnopposedLeftTurns>
+      <PercentUnopposedLeftTurns ID="WBU">0</PercentUnopposedLeftTurns>
+      <PercentUnopposedLeftTurns ID="NBU">0</PercentUnopposedLeftTurns>
+      <PercentUnopposedLeftTurns ID="SBU">0</PercentUnopposedLeftTurns>
+      <ParkingManeuverTime ID="EBL">18</ParkingManeuverTime>
+      <ParkingManeuverTime ID="EBT">18</ParkingManeuverTime>
+      <ParkingManeuverTime ID="EBR">18</ParkingManeuverTime>
+      <ParkingManeuverTime ID="WBL">18</ParkingManeuverTime>
+      <ParkingManeuverTime ID="WBT">18</ParkingManeuverTime>
+      <ParkingManeuverTime ID="WBR">18</ParkingManeuverTime>
+      <ParkingManeuverTime ID="NBL">18</ParkingManeuverTime>
+      <ParkingManeuverTime ID="NBT">18</ParkingManeuverTime>
+      <ParkingManeuverTime ID="NBR">18</ParkingManeuverTime>
+      <ParkingManeuverTime ID="SBL">18</ParkingManeuverTime>
+      <ParkingManeuverTime ID="SBT">18</ParkingManeuverTime>
+      <ParkingManeuverTime ID="SBR">18</ParkingManeuverTime>
+      <ParkingManeuverTime ID="EBU">18</ParkingManeuverTime>
+      <ParkingManeuverTime ID="WBU">18</ParkingManeuverTime>
+      <ParkingManeuverTime ID="NBU">18</ParkingManeuverTime>
+      <ParkingManeuverTime ID="SBU">18</ParkingManeuverTime>
+      <Bikes ID="EBL">0</Bikes>
+      <Bikes ID="EBT">0</Bikes>
+      <Bikes ID="EBR">0</Bikes>
+      <Bikes ID="WBL">0</Bikes>
+      <Bikes ID="WBT">0</Bikes>
+      <Bikes ID="WBR">0</Bikes>
+      <Bikes ID="NBL">0</Bikes>
+      <Bikes ID="NBT">0</Bikes>
+      <Bikes ID="NBR">0</Bikes>
+      <Bikes ID="SBL">0</Bikes>
+      <Bikes ID="SBT">0</Bikes>
+      <Bikes ID="SBR">0</Bikes>
+      <Bikes ID="EBU">0</Bikes>
+      <Bikes ID="WBU">0</Bikes>
+      <Bikes ID="NBU">0</Bikes>
+      <Bikes ID="SBU">0</Bikes>
+      <Peds ID="EBL">0</Peds>
+      <Peds ID="EBT">0</Peds>
+      <Peds ID="EBR">0</Peds>
+      <Peds ID="WBL">0</Peds>
+      <Peds ID="WBT">0</Peds>
+      <Peds ID="WBR">0</Peds>
+      <Peds ID="NBL">0</Peds>
+      <Peds ID="NBT">0</Peds>
+      <Peds ID="NBR">0</Peds>
+      <Peds ID="SBL">0</Peds>
+      <Peds ID="SBT">0</Peds>
+      <Peds ID="SBR">0</Peds>
+      <Peds ID="EBU">0</Peds>
+      <Peds ID="WBU">0</Peds>
+      <Peds ID="NBU">0</Peds>
+      <Peds ID="SBU">0</Peds>
+      <RightTurnsOnRed ID="EBT">0</RightTurnsOnRed>
+      <RightTurnsOnRed ID="WBT">0</RightTurnsOnRed>
+      <RightTurnsOnRed ID="NBT">0</RightTurnsOnRed>
+      <RightTurnsOnRed ID="SBT">0</RightTurnsOnRed>
+      <UnsignalizedDelayChecked ID="EBL">No</UnsignalizedDelayChecked>
+      <UnsignalizedDelayChecked ID="EBT">No</UnsignalizedDelayChecked>
+      <UnsignalizedDelayChecked ID="EBR">No</UnsignalizedDelayChecked>
+      <UnsignalizedDelayChecked ID="WBL">No</UnsignalizedDelayChecked>
+      <UnsignalizedDelayChecked ID="WBT">No</UnsignalizedDelayChecked>
+      <UnsignalizedDelayChecked ID="WBR">No</UnsignalizedDelayChecked>
+      <UnsignalizedDelayChecked ID="NBL">No</UnsignalizedDelayChecked>
+      <UnsignalizedDelayChecked ID="NBT">No</UnsignalizedDelayChecked>
+      <UnsignalizedDelayChecked ID="NBR">No</UnsignalizedDelayChecked>
+      <UnsignalizedDelayChecked ID="SBL">No</UnsignalizedDelayChecked>
+      <UnsignalizedDelayChecked ID="SBT">No</UnsignalizedDelayChecked>
+      <UnsignalizedDelayChecked ID="SBR">No</UnsignalizedDelayChecked>
+      <UnsignalizedDelayChecked ID="EBU">No</UnsignalizedDelayChecked>
+      <UnsignalizedDelayChecked ID="WBU">No</UnsignalizedDelayChecked>
+      <UnsignalizedDelayChecked ID="NBU">No</UnsignalizedDelayChecked>
+      <UnsignalizedDelayChecked ID="SBU">No</UnsignalizedDelayChecked>
+      <UnsignalizedDelaySeconds ID="EBL">0.0</UnsignalizedDelaySeconds>
+      <UnsignalizedDelaySeconds ID="EBT">0.0</UnsignalizedDelaySeconds>
+      <UnsignalizedDelaySeconds ID="EBR">0.0</UnsignalizedDelaySeconds>
+      <UnsignalizedDelaySeconds ID="WBL">0.0</UnsignalizedDelaySeconds>
+      <UnsignalizedDelaySeconds ID="WBT">0.0</UnsignalizedDelaySeconds>
+      <UnsignalizedDelaySeconds ID="WBR">0.0</UnsignalizedDelaySeconds>
+      <UnsignalizedDelaySeconds ID="NBL">0.0</UnsignalizedDelaySeconds>
+      <UnsignalizedDelaySeconds ID="NBT">0.0</UnsignalizedDelaySeconds>
+      <UnsignalizedDelaySeconds ID="NBR">0.0</UnsignalizedDelaySeconds>
+      <UnsignalizedDelaySeconds ID="SBL">0.0</UnsignalizedDelaySeconds>
+      <UnsignalizedDelaySeconds ID="SBT">0.0</UnsignalizedDelaySeconds>
+      <UnsignalizedDelaySeconds ID="SBR">0.0</UnsignalizedDelaySeconds>
+      <UnsignalizedDelaySeconds ID="EBU">0.0</UnsignalizedDelaySeconds>
+      <UnsignalizedDelaySeconds ID="WBU">0.0</UnsignalizedDelaySeconds>
+      <UnsignalizedDelaySeconds ID="NBU">0.0</UnsignalizedDelaySeconds>
+      <UnsignalizedDelaySeconds ID="SBU">0.0</UnsignalizedDelaySeconds>
+      <PedModeSig_PermittedLeftTurnFlow ID="EB">0</PedModeSig_PermittedLeftTurnFlow>
+      <PedModeSig_PermittedLeftTurnFlow ID="WB">0</PedModeSig_PermittedLeftTurnFlow>
+      <PedModeSig_PermittedLeftTurnFlow ID="NB">0</PedModeSig_PermittedLeftTurnFlow>
+      <PedModeSig_PermittedLeftTurnFlow ID="SB">0</PedModeSig_PermittedLeftTurnFlow>
+      <PedModeSig_OutgoingPedVolume ID="EB">0</PedModeSig_OutgoingPedVolume>
+      <PedModeSig_OutgoingPedVolume ID="WB">0</PedModeSig_OutgoingPedVolume>
+      <PedModeSig_OutgoingPedVolume ID="NB">0</PedModeSig_OutgoingPedVolume>
+      <PedModeSig_OutgoingPedVolume ID="SB">0</PedModeSig_OutgoingPedVolume>
+      <PedModeSig_IncomingPedVolume ID="EB">0</PedModeSig_IncomingPedVolume>
+      <PedModeSig_IncomingPedVolume ID="WB">0</PedModeSig_IncomingPedVolume>
+      <PedModeSig_IncomingPedVolume ID="NB">0</PedModeSig_IncomingPedVolume>
+      <PedModeSig_IncomingPedVolume ID="SB">0</PedModeSig_IncomingPedVolume>
+      <PedModeSig_CirculatingPedVolume ID="EB">0</PedModeSig_CirculatingPedVolume>
+      <PedModeSig_CirculatingPedVolume ID="WB">0</PedModeSig_CirculatingPedVolume>
+      <PedModeSig_CirculatingPedVolume ID="NB">0</PedModeSig_CirculatingPedVolume>
+      <PedModeSig_CirculatingPedVolume ID="SB">0</PedModeSig_CirculatingPedVolume>
+    </Period>
+  </INTERSECTION>
+  <INTERSECTION Int="2">
+    <IntersectionName>North Alafaya Trail &amp; 408 ramp</IntersectionName>
+    <IsMainAlternativeIntersection>No</IsMainAlternativeIntersection>
+    <IsPartOfAlternativeIntersection>No</IsPartOfAlternativeIntersection>
+    <AlternativeIntersectionType></AlternativeIntersectionType>
+    <ReferencePhase>2</ReferencePhase>
+    <Reference>End</Reference>
+    <Offset IsUserEntered="True">0</Offset>
+    <ExclusivePedPhaseTime>0.0</ExclusivePedPhaseTime>
+    <ForceMode>Fixed</ForceMode>
+    <Phase2Direction>NB</Phase2Direction>
+    <Phase4Direction>EB</Phase4Direction>
+    <SplitPhasing>Yes</SplitPhasing>
+    <FieldMeasuredPhaseTimes>Yes</FieldMeasuredPhaseTimes>
+    <XCoordinate>0</XCoordinate>
+    <YCoordinate>1000</YCoordinate>
+    <IsLocationUserModified>False</IsLocationUserModified>
+    <PeakHourFactor>0.90</PeakHourFactor>
+    <HeavyVehicleEquivalencyFactor ID="EBL">2.00</HeavyVehicleEquivalencyFactor>
+    <HeavyVehicleEquivalencyFactor ID="EBT">2.00</HeavyVehicleEquivalencyFactor>
+    <HeavyVehicleEquivalencyFactor ID="EBR">2.00</HeavyVehicleEquivalencyFactor>
+    <HeavyVehicleEquivalencyFactor ID="WBL">2.00</HeavyVehicleEquivalencyFactor>
+    <HeavyVehicleEquivalencyFactor ID="WBT">2.00</HeavyVehicleEquivalencyFactor>
+    <HeavyVehicleEquivalencyFactor ID="WBR">2.00</HeavyVehicleEquivalencyFactor>
+    <HeavyVehicleEquivalencyFactor ID="NBL">2.00</HeavyVehicleEquivalencyFactor>
+    <HeavyVehicleEquivalencyFactor ID="NBT">2.00</HeavyVehicleEquivalencyFactor>
+    <HeavyVehicleEquivalencyFactor ID="NBR">2.00</HeavyVehicleEquivalencyFactor>
+    <HeavyVehicleEquivalencyFactor ID="SBL">2.00</HeavyVehicleEquivalencyFactor>
+    <HeavyVehicleEquivalencyFactor ID="SBT">2.00</HeavyVehicleEquivalencyFactor>
+    <HeavyVehicleEquivalencyFactor ID="SBR">2.00</HeavyVehicleEquivalencyFactor>
+    <HeavyVehicleEquivalencyFactor ID="EBU">2.00</HeavyVehicleEquivalencyFactor>
+    <HeavyVehicleEquivalencyFactor ID="WBU">2.00</HeavyVehicleEquivalencyFactor>
+    <HeavyVehicleEquivalencyFactor ID="NBU">2.00</HeavyVehicleEquivalencyFactor>
+    <HeavyVehicleEquivalencyFactor ID="SBU">2.00</HeavyVehicleEquivalencyFactor>
+    <BusBlockageTime ID="EBL">14.4</BusBlockageTime>
+    <BusBlockageTime ID="EBT">14.4</BusBlockageTime>
+    <BusBlockageTime ID="EBR">14.4</BusBlockageTime>
+    <BusBlockageTime ID="WBL">14.4</BusBlockageTime>
+    <BusBlockageTime ID="WBT">14.4</BusBlockageTime>
+    <BusBlockageTime ID="WBR">14.4</BusBlockageTime>
+    <BusBlockageTime ID="NBL">14.4</BusBlockageTime>
+    <BusBlockageTime ID="NBT">14.4</BusBlockageTime>
+    <BusBlockageTime ID="NBR">14.4</BusBlockageTime>
+    <BusBlockageTime ID="SBL">14.4</BusBlockageTime>
+    <BusBlockageTime ID="SBT">14.4</BusBlockageTime>
+    <BusBlockageTime ID="SBR">14.4</BusBlockageTime>
+    <BusBlockageTime ID="EBU">14.4</BusBlockageTime>
+    <BusBlockageTime ID="WBU">14.4</BusBlockageTime>
+    <BusBlockageTime ID="NBU">14.4</BusBlockageTime>
+    <BusBlockageTime ID="SBU">14.4</BusBlockageTime>
+    <InterchangeIntersectionIRT>No</InterchangeIntersectionIRT>
+    <IsDivergingDiamondInterchangeIntersection>No</IsDivergingDiamondInterchangeIntersection>
+    <InterchangeTypeIRT>Diamond</InterchangeTypeIRT>
+    <TurnRadius IsUserEntered="False" ID="EBL">112</TurnRadius>
+    <TurnRadius IsUserEntered="False" ID="EBT">0</TurnRadius>
+    <TurnRadius IsUserEntered="False" ID="EBR">32</TurnRadius>
+    <TurnRadius IsUserEntered="False" ID="WBL">112</TurnRadius>
+    <TurnRadius IsUserEntered="False" ID="WBT">0</TurnRadius>
+    <TurnRadius IsUserEntered="False" ID="WBR">32</TurnRadius>
+    <TurnRadius IsUserEntered="False" ID="NBL">112</TurnRadius>
+    <TurnRadius IsUserEntered="False" ID="NBT">0</TurnRadius>
+    <TurnRadius IsUserEntered="False" ID="NBR">32</TurnRadius>
+    <TurnRadius IsUserEntered="False" ID="SBL">112</TurnRadius>
+    <TurnRadius IsUserEntered="False" ID="SBT">0</TurnRadius>
+    <TurnRadius IsUserEntered="False" ID="SBR">32</TurnRadius>
+    <TurnRadius IsUserEntered="False" ID="EBU">0</TurnRadius>
+    <TurnRadius IsUserEntered="False" ID="WBU">0</TurnRadius>
+    <TurnRadius IsUserEntered="False" ID="NBU">0</TurnRadius>
+    <TurnRadius IsUserEntered="False" ID="SBU">0</TurnRadius>
+    <WalkInterval ID="EBL">0.0</WalkInterval>
+    <WalkInterval ID="EBT">0.0</WalkInterval>
+    <WalkInterval ID="EBR">0.0</WalkInterval>
+    <WalkInterval ID="WBL">0.0</WalkInterval>
+    <WalkInterval ID="WBT">0.0</WalkInterval>
+    <WalkInterval ID="WBR">0.0</WalkInterval>
+    <WalkInterval ID="NBL">0.0</WalkInterval>
+    <WalkInterval ID="NBT">0.0</WalkInterval>
+    <WalkInterval ID="NBR">0.0</WalkInterval>
+    <WalkInterval ID="SBL">0.0</WalkInterval>
+    <WalkInterval ID="SBT">0.0</WalkInterval>
+    <WalkInterval ID="SBR">0.0</WalkInterval>
+    <WalkInterval ID="EBU">0.0</WalkInterval>
+    <WalkInterval ID="WBU">0.0</WalkInterval>
+    <WalkInterval ID="NBU">0.0</WalkInterval>
+    <WalkInterval ID="SBU">0.0</WalkInterval>
+    <PedestrianClearIntervalTime ID="EBL">0.0</PedestrianClearIntervalTime>
+    <PedestrianClearIntervalTime ID="EBT">0.0</PedestrianClearIntervalTime>
+    <PedestrianClearIntervalTime ID="EBR">0.0</PedestrianClearIntervalTime>
+    <PedestrianClearIntervalTime ID="WBL">0.0</PedestrianClearIntervalTime>
+    <PedestrianClearIntervalTime ID="WBT">0.0</PedestrianClearIntervalTime>
+    <PedestrianClearIntervalTime ID="WBR">0.0</PedestrianClearIntervalTime>
+    <PedestrianClearIntervalTime ID="NBL">0.0</PedestrianClearIntervalTime>
+    <PedestrianClearIntervalTime ID="NBT">0.0</PedestrianClearIntervalTime>
+    <PedestrianClearIntervalTime ID="NBR">0.0</PedestrianClearIntervalTime>
+    <PedestrianClearIntervalTime ID="SBL">0.0</PedestrianClearIntervalTime>
+    <PedestrianClearIntervalTime ID="SBT">0.0</PedestrianClearIntervalTime>
+    <PedestrianClearIntervalTime ID="SBR">0.0</PedestrianClearIntervalTime>
+    <PedestrianClearIntervalTime ID="EBU">0.0</PedestrianClearIntervalTime>
+    <PedestrianClearIntervalTime ID="WBU">0.0</PedestrianClearIntervalTime>
+    <PedestrianClearIntervalTime ID="NBU">0.0</PedestrianClearIntervalTime>
+    <PedestrianClearIntervalTime ID="SBU">0.0</PedestrianClearIntervalTime>
+    <ReceivingLanes IsUserEntered="False" ID="EBL">1</ReceivingLanes>
+    <ReceivingLanes IsUserEntered="False" ID="EBT">1</ReceivingLanes>
+    <ReceivingLanes IsUserEntered="False" ID="EBR">1</ReceivingLanes>
+    <ReceivingLanes IsUserEntered="False" ID="WBL">2</ReceivingLanes>
+    <ReceivingLanes IsUserEntered="False" ID="WBT">2</ReceivingLanes>
+    <ReceivingLanes IsUserEntered="False" ID="WBR">2</ReceivingLanes>
+    <ReceivingLanes IsUserEntered="False" ID="NBL">3</ReceivingLanes>
+    <ReceivingLanes IsUserEntered="False" ID="NBT">3</ReceivingLanes>
+    <ReceivingLanes IsUserEntered="False" ID="NBR">3</ReceivingLanes>
+    <ReceivingLanes IsUserEntered="False" ID="SBL">3</ReceivingLanes>
+    <ReceivingLanes IsUserEntered="False" ID="SBT">3</ReceivingLanes>
+    <ReceivingLanes IsUserEntered="False" ID="SBR">3</ReceivingLanes>
+    <ReceivingLanes IsUserEntered="False" ID="EBU">1</ReceivingLanes>
+    <ReceivingLanes IsUserEntered="False" ID="WBU">2</ReceivingLanes>
+    <ReceivingLanes IsUserEntered="False" ID="NBU">3</ReceivingLanes>
+    <ReceivingLanes IsUserEntered="False" ID="SBU">3</ReceivingLanes>
+    <WorkZoneActive ID="EB">No</WorkZoneActive>
+    <WorkZoneActive ID="WB">No</WorkZoneActive>
+    <WorkZoneActive ID="NB">No</WorkZoneActive>
+    <WorkZoneActive ID="SB">No</WorkZoneActive>
+    <LeftThruLanesOpen IsUserEntered="False" ID="EB">0</LeftThruLanesOpen>
+    <LeftThruLanesOpen IsUserEntered="False" ID="WB">2</LeftThruLanesOpen>
+    <LeftThruLanesOpen IsUserEntered="False" ID="NB">5</LeftThruLanesOpen>
+    <LeftThruLanesOpen IsUserEntered="False" ID="SB">4</LeftThruLanesOpen>
+    <ApproachWidth IsUserEntered="False" ID="EB">0.0</ApproachWidth>
+    <ApproachWidth IsUserEntered="False" ID="WB">24.0</ApproachWidth>
+    <ApproachWidth IsUserEntered="False" ID="NB">60.0</ApproachWidth>
+    <ApproachWidth IsUserEntered="False" ID="SB">48.0</ApproachWidth>
+    <IntersectionSafety>
+      <K>10.0</K>
+      <IntersectionDepthEW>200</IntersectionDepthEW>
+      <IntersectionDepthNS>200</IntersectionDepthNS>
+      <IsResidentialLandUse>False</IsResidentialLandUse>
+      <SafetyApproach ID="EB">
+        <HasMastArmSignalDisplay>True</HasMastArmSignalDisplay>
+        <HasMedianIsland>True</HasMedianIsland>
+        <HasDetector>False</HasDetector>
+        <HasExitMerge>False</HasExitMerge>
+        <HasBicycle>False</HasBicycle>
+        <HasUpstreamBusBay>False</HasUpstreamBusBay>
+        <HasUpstreamParking>False</HasUpstreamParking>
+      </SafetyApproach>
+      <SafetyApproach ID="WB">
+        <HasMastArmSignalDisplay>True</HasMastArmSignalDisplay>
+        <HasMedianIsland>True</HasMedianIsland>
+        <HasDetector>False</HasDetector>
+        <HasExitMerge>False</HasExitMerge>
+        <HasBicycle>False</HasBicycle>
+        <HasUpstreamBusBay>False</HasUpstreamBusBay>
+        <HasUpstreamParking>False</HasUpstreamParking>
+      </SafetyApproach>
+      <SafetyApproach ID="NB">
+        <HasMastArmSignalDisplay>True</HasMastArmSignalDisplay>
+        <HasMedianIsland>True</HasMedianIsland>
+        <HasDetector>False</HasDetector>
+        <HasExitMerge>False</HasExitMerge>
+        <HasBicycle>False</HasBicycle>
+        <HasUpstreamBusBay>False</HasUpstreamBusBay>
+        <HasUpstreamParking>False</HasUpstreamParking>
+      </SafetyApproach>
+      <SafetyApproach ID="SB">
+        <HasMastArmSignalDisplay>True</HasMastArmSignalDisplay>
+        <HasMedianIsland>True</HasMedianIsland>
+        <HasDetector>False</HasDetector>
+        <HasExitMerge>False</HasExitMerge>
+        <HasBicycle>False</HasBicycle>
+        <HasUpstreamBusBay>False</HasUpstreamBusBay>
+        <HasUpstreamParking>False</HasUpstreamParking>
+      </SafetyApproach>
+    </IntersectionSafety>
+    <AllowOptimization>Yes</AllowOptimization>
+    <UncoordinatedIntersection>No</UncoordinatedIntersection>
+    <PreTimedSignal>No</PreTimedSignal>
+    <Lanes ID="EBL">0</Lanes>
+    <Lanes ID="EBT">0</Lanes>
+    <Lanes ID="EBR">0</Lanes>
+    <Lanes ID="WBL">1</Lanes>
+    <Lanes ID="WBT">1</Lanes>
+    <Lanes ID="WBR">1</Lanes>
+    <Lanes ID="NBL">2</Lanes>
+    <Lanes ID="NBT">3</Lanes>
+    <Lanes ID="NBR">1</Lanes>
+    <Lanes ID="SBL">1</Lanes>
+    <Lanes ID="SBT">3</Lanes>
+    <Lanes ID="SBR">0</Lanes>
+    <Lanes ID="EBU">0</Lanes>
+    <Lanes ID="WBU">0</Lanes>
+    <Lanes ID="NBU">0</Lanes>
+    <Lanes ID="SBU">0</Lanes>
+    <SharedLane ID="EBL">No</SharedLane>
+    <SharedLane ID="EBR">No</SharedLane>
+    <SharedLane ID="WBL">Yes</SharedLane>
+    <SharedLane ID="WBR">No</SharedLane>
+    <SharedLane ID="NBL">No</SharedLane>
+    <SharedLane ID="NBR">No</SharedLane>
+    <SharedLane ID="SBL">No</SharedLane>
+    <SharedLane ID="SBR">No</SharedLane>
+    <OpposingRTLane ID="EBL">No</OpposingRTLane>
+    <OpposingRTLane ID="WBL">No</OpposingRTLane>
+    <OpposingRTLane ID="NBL">No</OpposingRTLane>
+    <OpposingRTLane ID="SBL">No</OpposingRTLane>
+    <TurnBayLength ID="EBL">0</TurnBayLength>
+    <TurnBayLength ID="EBT">0</TurnBayLength>
+    <TurnBayLength ID="EBR">0</TurnBayLength>
+    <TurnBayLength ID="WBL">75</TurnBayLength>
+    <TurnBayLength ID="WBT">0</TurnBayLength>
+    <TurnBayLength ID="WBR">0</TurnBayLength>
+    <TurnBayLength ID="NBL">225</TurnBayLength>
+    <TurnBayLength ID="NBT">0</TurnBayLength>
+    <TurnBayLength ID="NBR">0</TurnBayLength>
+    <TurnBayLength ID="SBL">361</TurnBayLength>
+    <TurnBayLength ID="SBT">0</TurnBayLength>
+    <TurnBayLength ID="SBR">0</TurnBayLength>
+    <TurnBayLength ID="EBU">0</TurnBayLength>
+    <TurnBayLength ID="WBU">0</TurnBayLength>
+    <TurnBayLength ID="NBU">0</TurnBayLength>
+    <TurnBayLength ID="SBU">0</TurnBayLength>
+    <StopLineDetectorLength ID="EBL">40</StopLineDetectorLength>
+    <StopLineDetectorLength ID="EBT">40</StopLineDetectorLength>
+    <StopLineDetectorLength ID="EBR">40</StopLineDetectorLength>
+    <StopLineDetectorLength ID="WBL">40</StopLineDetectorLength>
+    <StopLineDetectorLength ID="WBT">40</StopLineDetectorLength>
+    <StopLineDetectorLength ID="WBR">40</StopLineDetectorLength>
+    <StopLineDetectorLength ID="NBL">40</StopLineDetectorLength>
+    <StopLineDetectorLength ID="NBT">40</StopLineDetectorLength>
+    <StopLineDetectorLength ID="NBR">40</StopLineDetectorLength>
+    <StopLineDetectorLength ID="SBL">40</StopLineDetectorLength>
+    <StopLineDetectorLength ID="SBT">40</StopLineDetectorLength>
+    <StopLineDetectorLength ID="SBR">40</StopLineDetectorLength>
+    <StopLineDetectorLength ID="EBU">40</StopLineDetectorLength>
+    <StopLineDetectorLength ID="WBU">40</StopLineDetectorLength>
+    <StopLineDetectorLength ID="NBU">40</StopLineDetectorLength>
+    <StopLineDetectorLength ID="SBU">40</StopLineDetectorLength>
+    <Grade ID="EBT">0</Grade>
+    <Grade ID="WBT">0</Grade>
+    <Grade ID="NBT">0</Grade>
+    <Grade ID="SBT">0</Grade>
+    <SpeedLimit ID="EBT">35</SpeedLimit>
+    <SpeedLimit ID="WBT">35</SpeedLimit>
+    <SpeedLimit ID="NBT">35</SpeedLimit>
+    <SpeedLimit ID="SBT">35</SpeedLimit>
+    <LaneWidth ID="EBL">12.0</LaneWidth>
+    <LaneWidth ID="EBT">12.0</LaneWidth>
+    <LaneWidth ID="EBR">12.0</LaneWidth>
+    <LaneWidth ID="WBL">12.0</LaneWidth>
+    <LaneWidth ID="WBT">12.0</LaneWidth>
+    <LaneWidth ID="WBR">12.0</LaneWidth>
+    <LaneWidth ID="NBL">12.0</LaneWidth>
+    <LaneWidth ID="NBT">12.0</LaneWidth>
+    <LaneWidth ID="NBR">12.0</LaneWidth>
+    <LaneWidth ID="SBL">12.0</LaneWidth>
+    <LaneWidth ID="SBT">12.0</LaneWidth>
+    <LaneWidth ID="SBR">12.0</LaneWidth>
+    <LaneWidth ID="EBU">12.0</LaneWidth>
+    <LaneWidth ID="WBU">12.0</LaneWidth>
+    <LaneWidth ID="NBU">12.0</LaneWidth>
+    <LaneWidth ID="SBU">12.0</LaneWidth>
+    <ArrivalType ID="EBL">3</ArrivalType>
+    <ArrivalType ID="EBT">3</ArrivalType>
+    <ArrivalType ID="EBR">3</ArrivalType>
+    <ArrivalType ID="WBL">3</ArrivalType>
+    <ArrivalType ID="WBT">3</ArrivalType>
+    <ArrivalType ID="WBR">3</ArrivalType>
+    <ArrivalType ID="NBL">3</ArrivalType>
+    <ArrivalType ID="NBT">3</ArrivalType>
+    <ArrivalType ID="NBR">3</ArrivalType>
+    <ArrivalType ID="SBL">3</ArrivalType>
+    <ArrivalType ID="SBT">3</ArrivalType>
+    <ArrivalType ID="SBR">3</ArrivalType>
+    <ArrivalType ID="EBU">3</ArrivalType>
+    <ArrivalType ID="WBU">3</ArrivalType>
+    <ArrivalType ID="NBU">3</ArrivalType>
+    <ArrivalType ID="SBU">3</ArrivalType>
+    <PresenceOfParking ID="EBL">No</PresenceOfParking>
+    <PresenceOfParking ID="EBT">No</PresenceOfParking>
+    <PresenceOfParking ID="EBR">No</PresenceOfParking>
+    <PresenceOfParking ID="WBL">No</PresenceOfParking>
+    <PresenceOfParking ID="WBT">No</PresenceOfParking>
+    <PresenceOfParking ID="WBR">No</PresenceOfParking>
+    <PresenceOfParking ID="NBL">No</PresenceOfParking>
+    <PresenceOfParking ID="NBT">No</PresenceOfParking>
+    <PresenceOfParking ID="NBR">No</PresenceOfParking>
+    <PresenceOfParking ID="SBL">No</PresenceOfParking>
+    <PresenceOfParking ID="SBT">No</PresenceOfParking>
+    <PresenceOfParking ID="SBR">No</PresenceOfParking>
+    <PresenceOfParking ID="EBU">No</PresenceOfParking>
+    <PresenceOfParking ID="WBU">No</PresenceOfParking>
+    <PresenceOfParking ID="NBU">No</PresenceOfParking>
+    <PresenceOfParking ID="SBU">No</PresenceOfParking>
+    <InitialQueue ID="EBL">0</InitialQueue>
+    <InitialQueue ID="EBT">0</InitialQueue>
+    <InitialQueue ID="EBR">0</InitialQueue>
+    <InitialQueue ID="WBL">0</InitialQueue>
+    <InitialQueue ID="WBT">0</InitialQueue>
+    <InitialQueue ID="WBR">0</InitialQueue>
+    <InitialQueue ID="NBL">0</InitialQueue>
+    <InitialQueue ID="NBT">0</InitialQueue>
+    <InitialQueue ID="NBR">0</InitialQueue>
+    <InitialQueue ID="SBL">0</InitialQueue>
+    <InitialQueue ID="SBT">0</InitialQueue>
+    <InitialQueue ID="SBR">0</InitialQueue>
+    <InitialQueue ID="EBU">0</InitialQueue>
+    <InitialQueue ID="WBU">0</InitialQueue>
+    <InitialQueue ID="NBU">0</InitialQueue>
+    <InitialQueue ID="SBU">0</InitialQueue>
+    <Movement ID="EBL"></Movement>
+    <Movement ID="EBT"></Movement>
+    <Movement ID="WBL"></Movement>
+    <Movement ID="WBT">LT+TH+RT</Movement>
+    <Movement ID="NBL">LT</Movement>
+    <Movement ID="NBT">TH+RT</Movement>
+    <Movement ID="SBL">LT</Movement>
+    <Movement ID="SBT">LT+TH</Movement>
+    <LeadLag ID="EBL">Lead</LeadLag>
+    <LeadLag ID="EBT">Lead</LeadLag>
+    <LeadLag ID="WBL">Lead</LeadLag>
+    <LeadLag ID="WBT">Lead</LeadLag>
+    <LeadLag ID="NBL">Lead</LeadLag>
+    <LeadLag ID="NBT">Lead</LeadLag>
+    <LeadLag ID="SBL">Lead</LeadLag>
+    <LeadLag ID="SBT">Lead</LeadLag>
+    <PassageTime ID="EBL">2.0</PassageTime>
+    <PassageTime ID="EBT">2.0</PassageTime>
+    <PassageTime ID="WBL">2.0</PassageTime>
+    <PassageTime ID="WBT">2.0</PassageTime>
+    <PassageTime ID="NBL">2.0</PassageTime>
+    <PassageTime ID="NBT">2.0</PassageTime>
+    <PassageTime ID="SBL">2.0</PassageTime>
+    <PassageTime ID="SBT">2.0</PassageTime>
+    <MinimumGreen ID="EBL">6</MinimumGreen>
+    <MinimumGreen ID="EBT">6</MinimumGreen>
+    <MinimumGreen ID="WBL">6</MinimumGreen>
+    <MinimumGreen ID="WBT">6</MinimumGreen>
+    <MinimumGreen ID="NBL">6</MinimumGreen>
+    <MinimumGreen ID="NBT">6</MinimumGreen>
+    <MinimumGreen ID="SBL">6</MinimumGreen>
+    <MinimumGreen ID="SBT">6</MinimumGreen>
+    <YellowChangeTime ID="EBL">4.0</YellowChangeTime>
+    <YellowChangeTime ID="EBT">4.0</YellowChangeTime>
+    <YellowChangeTime ID="WBL">4.0</YellowChangeTime>
+    <YellowChangeTime ID="WBT">2.6</YellowChangeTime>
+    <YellowChangeTime ID="NBL">3.8</YellowChangeTime>
+    <YellowChangeTime ID="NBT">4.5</YellowChangeTime>
+    <YellowChangeTime ID="SBL">3.8</YellowChangeTime>
+    <YellowChangeTime ID="SBT">4.1</YellowChangeTime>
+    <AllRedClearanceTime ID="EBL">0.0</AllRedClearanceTime>
+    <AllRedClearanceTime ID="EBT">0.0</AllRedClearanceTime>
+    <AllRedClearanceTime ID="WBL">0.0</AllRedClearanceTime>
+    <AllRedClearanceTime ID="WBT">0.0</AllRedClearanceTime>
+    <AllRedClearanceTime ID="NBL">0.0</AllRedClearanceTime>
+    <AllRedClearanceTime ID="NBT">0.0</AllRedClearanceTime>
+    <AllRedClearanceTime ID="SBL">0.0</AllRedClearanceTime>
+    <AllRedClearanceTime ID="SBT">0.0</AllRedClearanceTime>
+    <PhaseSplits ID="EBL">0.0</PhaseSplits>
+    <PhaseSplits ID="EBT">0.0</PhaseSplits>
+    <PhaseSplits ID="WBL">0.0</PhaseSplits>
+    <PhaseSplits ID="WBT">24.5</PhaseSplits>
+    <PhaseSplits ID="NBL">35.1</PhaseSplits>
+    <PhaseSplits ID="NBT">124.5</PhaseSplits>
+    <PhaseSplits ID="SBL">11.0</PhaseSplits>
+    <PhaseSplits ID="SBT">100.4</PhaseSplits>
+    <Recall ID="EBL">Off</Recall>
+    <Recall ID="EBT">Off</Recall>
+    <Recall ID="WBL">Off</Recall>
+    <Recall ID="WBT">Off</Recall>
+    <Recall ID="NBL">Off</Recall>
+    <Recall ID="NBT">Min</Recall>
+    <Recall ID="SBL">Off</Recall>
+    <Recall ID="SBT">Min</Recall>
+    <DualEntry ID="EBL">No</DualEntry>
+    <DualEntry ID="EBT">Yes</DualEntry>
+    <DualEntry ID="WBL">No</DualEntry>
+    <DualEntry ID="WBT">Yes</DualEntry>
+    <DualEntry ID="NBL">No</DualEntry>
+    <DualEntry ID="NBT">Yes</DualEntry>
+    <DualEntry ID="SBL">No</DualEntry>
+    <DualEntry ID="SBT">Yes</DualEntry>
+    <PhaseProtectedRightTurn ID="EBL">False</PhaseProtectedRightTurn>
+    <PhaseProtectedRightTurn ID="EBT">False</PhaseProtectedRightTurn>
+    <PhaseProtectedRightTurn ID="EBR">False</PhaseProtectedRightTurn>
+    <PhaseProtectedRightTurn ID="WBL">False</PhaseProtectedRightTurn>
+    <PhaseProtectedRightTurn ID="WBT">False</PhaseProtectedRightTurn>
+    <PhaseProtectedRightTurn ID="WBR">False</PhaseProtectedRightTurn>
+    <PhaseProtectedRightTurn ID="NBL">False</PhaseProtectedRightTurn>
+    <PhaseProtectedRightTurn ID="NBT">False</PhaseProtectedRightTurn>
+    <PhaseProtectedRightTurn ID="NBR">False</PhaseProtectedRightTurn>
+    <PhaseProtectedRightTurn ID="SBL">False</PhaseProtectedRightTurn>
+    <PhaseProtectedRightTurn ID="SBT">False</PhaseProtectedRightTurn>
+    <PhaseProtectedRightTurn ID="SBR">False</PhaseProtectedRightTurn>
+    <PedModeSig_MidSegmentSpeed ID="EB">0</PedModeSig_MidSegmentSpeed>
+    <PedModeSig_MidSegmentSpeed ID="WB">0</PedModeSig_MidSegmentSpeed>
+    <PedModeSig_MidSegmentSpeed ID="NB">0</PedModeSig_MidSegmentSpeed>
+    <PedModeSig_MidSegmentSpeed ID="SB">0</PedModeSig_MidSegmentSpeed>
+    <PedModeSig_NumberRightTurnIslands ID="EB">0</PedModeSig_NumberRightTurnIslands>
+    <PedModeSig_NumberRightTurnIslands ID="WB">0</PedModeSig_NumberRightTurnIslands>
+    <PedModeSig_NumberRightTurnIslands ID="NB">0</PedModeSig_NumberRightTurnIslands>
+    <PedModeSig_NumberRightTurnIslands ID="SB">0</PedModeSig_NumberRightTurnIslands>
+    <PedModeSig_WalkwayWidth ID="EB">9.0</PedModeSig_WalkwayWidth>
+    <PedModeSig_WalkwayWidth ID="WB">9.0</PedModeSig_WalkwayWidth>
+    <PedModeSig_WalkwayWidth ID="NB">9.0</PedModeSig_WalkwayWidth>
+    <PedModeSig_WalkwayWidth ID="SB">9.0</PedModeSig_WalkwayWidth>
+    <PedModeSig_CrosswalkWidth ID="EB">12</PedModeSig_CrosswalkWidth>
+    <PedModeSig_CrosswalkWidth ID="WB">12</PedModeSig_CrosswalkWidth>
+    <PedModeSig_CrosswalkWidth ID="NB">12</PedModeSig_CrosswalkWidth>
+    <PedModeSig_CrosswalkWidth ID="SB">12</PedModeSig_CrosswalkWidth>
+    <PedModeSig_CrosswalkLength ID="EB">0</PedModeSig_CrosswalkLength>
+    <PedModeSig_CrosswalkLength ID="WB">0</PedModeSig_CrosswalkLength>
+    <PedModeSig_CrosswalkLength ID="NB">0</PedModeSig_CrosswalkLength>
+    <PedModeSig_CrosswalkLength ID="SB">0</PedModeSig_CrosswalkLength>
+    <PedModeSig_CornerRadius ID="EB">25</PedModeSig_CornerRadius>
+    <PedModeSig_CornerRadius ID="WB">25</PedModeSig_CornerRadius>
+    <PedModeSig_CornerRadius ID="NB">25</PedModeSig_CornerRadius>
+    <PedModeSig_CornerRadius ID="SB">25</PedModeSig_CornerRadius>
+    <PedModeSig_RestInWalkEnabled ID="EB">No</PedModeSig_RestInWalkEnabled>
+    <PedModeSig_RestInWalkEnabled ID="WB">No</PedModeSig_RestInWalkEnabled>
+    <PedModeSig_RestInWalkEnabled ID="NB">No</PedModeSig_RestInWalkEnabled>
+    <PedModeSig_RestInWalkEnabled ID="SB">No</PedModeSig_RestInWalkEnabled>
+    <PedModeSig_PedestrianSigHead ID="EB">No</PedModeSig_PedestrianSigHead>
+    <PedModeSig_PedestrianSigHead ID="WB">No</PedModeSig_PedestrianSigHead>
+    <PedModeSig_PedestrianSigHead ID="NB">No</PedModeSig_PedestrianSigHead>
+    <PedModeSig_PedestrianSigHead ID="SB">No</PedModeSig_PedestrianSigHead>
+    <PedModeSig_CrosswalkClosed ID="EB">No</PedModeSig_CrosswalkClosed>
+    <PedModeSig_CrosswalkClosed ID="WB">No</PedModeSig_CrosswalkClosed>
+    <PedModeSig_CrosswalkClosed ID="NB">No</PedModeSig_CrosswalkClosed>
+    <PedModeSig_CrosswalkClosed ID="SB">No</PedModeSig_CrosswalkClosed>
+    <BicycleModeSig_OnStreetParkingOccupied ID="EB">0.50</BicycleModeSig_OnStreetParkingOccupied>
+    <BicycleModeSig_OnStreetParkingOccupied ID="WB">0.50</BicycleModeSig_OnStreetParkingOccupied>
+    <BicycleModeSig_OnStreetParkingOccupied ID="NB">0.50</BicycleModeSig_OnStreetParkingOccupied>
+    <BicycleModeSig_OnStreetParkingOccupied ID="SB">0.50</BicycleModeSig_OnStreetParkingOccupied>
+    <BicycleModeSig_CurbToCurbStreetWidth ID="EB">0</BicycleModeSig_CurbToCurbStreetWidth>
+    <BicycleModeSig_CurbToCurbStreetWidth ID="WB">0</BicycleModeSig_CurbToCurbStreetWidth>
+    <BicycleModeSig_CurbToCurbStreetWidth ID="NB">0</BicycleModeSig_CurbToCurbStreetWidth>
+    <BicycleModeSig_CurbToCurbStreetWidth ID="SB">0</BicycleModeSig_CurbToCurbStreetWidth>
+    <BicycleModeSig_OutsideThruLaneWidth ID="EB">12</BicycleModeSig_OutsideThruLaneWidth>
+    <BicycleModeSig_OutsideThruLaneWidth ID="WB">12</BicycleModeSig_OutsideThruLaneWidth>
+    <BicycleModeSig_OutsideThruLaneWidth ID="NB">12</BicycleModeSig_OutsideThruLaneWidth>
+    <BicycleModeSig_OutsideThruLaneWidth ID="SB">12</BicycleModeSig_OutsideThruLaneWidth>
+    <BicycleModeSig_BicycleLaneWidth ID="EB">5.0</BicycleModeSig_BicycleLaneWidth>
+    <BicycleModeSig_BicycleLaneWidth ID="WB">5.0</BicycleModeSig_BicycleLaneWidth>
+    <BicycleModeSig_BicycleLaneWidth ID="NB">5.0</BicycleModeSig_BicycleLaneWidth>
+    <BicycleModeSig_BicycleLaneWidth ID="SB">5.0</BicycleModeSig_BicycleLaneWidth>
+    <BicycleModeSig_PavedShoulderWidth ID="EB">2.0</BicycleModeSig_PavedShoulderWidth>
+    <BicycleModeSig_PavedShoulderWidth ID="WB">2.0</BicycleModeSig_PavedShoulderWidth>
+    <BicycleModeSig_PavedShoulderWidth ID="NB">2.0</BicycleModeSig_PavedShoulderWidth>
+    <BicycleModeSig_PavedShoulderWidth ID="SB">2.0</BicycleModeSig_PavedShoulderWidth>
+    <BicycleModeSig_PresenceOfCurb ID="EB">No</BicycleModeSig_PresenceOfCurb>
+    <BicycleModeSig_PresenceOfCurb ID="WB">No</BicycleModeSig_PresenceOfCurb>
+    <BicycleModeSig_PresenceOfCurb ID="NB">No</BicycleModeSig_PresenceOfCurb>
+    <BicycleModeSig_PresenceOfCurb ID="SB">No</BicycleModeSig_PresenceOfCurb>
+    <SimultaneousGapOut ID="East/West">On</SimultaneousGapOut>
+    <DallasPhasing ID="East/West">Off</DallasPhasing>
+    <FreeFlowSpeed ID="Segment 1">35.0</FreeFlowSpeed>
+    <Length ID="Segment 1">1000</Length>
+    <SimultaneousGapOut ID="North/South">On</SimultaneousGapOut>
+    <DallasPhasing ID="North/South">Off</DallasPhasing>
+    <FreeFlowSpeed ID="Segment 2">35.0</FreeFlowSpeed>
+    <Length ID="Segment 2">1000</Length>
+    <Period ID="1">
+      <StartUpLostTime ID="EBL">2.0</StartUpLostTime>
+      <StartUpLostTime ID="EBT">2.0</StartUpLostTime>
+      <StartUpLostTime ID="EBR">2.0</StartUpLostTime>
+      <StartUpLostTime ID="WBL">2.0</StartUpLostTime>
+      <StartUpLostTime ID="WBT">2.0</StartUpLostTime>
+      <StartUpLostTime ID="WBR">2.0</StartUpLostTime>
+      <StartUpLostTime ID="NBL">2.0</StartUpLostTime>
+      <StartUpLostTime ID="NBT">2.0</StartUpLostTime>
+      <StartUpLostTime ID="NBR">2.0</StartUpLostTime>
+      <StartUpLostTime ID="SBL">2.0</StartUpLostTime>
+      <StartUpLostTime ID="SBT">2.0</StartUpLostTime>
+      <StartUpLostTime ID="SBR">2.0</StartUpLostTime>
+      <StartUpLostTime ID="EBU">2.0</StartUpLostTime>
+      <StartUpLostTime ID="WBU">2.0</StartUpLostTime>
+      <StartUpLostTime ID="NBU">2.0</StartUpLostTime>
+      <StartUpLostTime ID="SBU">2.0</StartUpLostTime>
+      <EndUseOfIntergreenPeriod ID="EBL">2.0</EndUseOfIntergreenPeriod>
+      <EndUseOfIntergreenPeriod ID="EBT">2.0</EndUseOfIntergreenPeriod>
+      <EndUseOfIntergreenPeriod ID="EBR">2.0</EndUseOfIntergreenPeriod>
+      <EndUseOfIntergreenPeriod ID="WBL">2.0</EndUseOfIntergreenPeriod>
+      <EndUseOfIntergreenPeriod ID="WBT">2.0</EndUseOfIntergreenPeriod>
+      <EndUseOfIntergreenPeriod ID="WBR">2.0</EndUseOfIntergreenPeriod>
+      <EndUseOfIntergreenPeriod ID="NBL">2.0</EndUseOfIntergreenPeriod>
+      <EndUseOfIntergreenPeriod ID="NBT">2.0</EndUseOfIntergreenPeriod>
+      <EndUseOfIntergreenPeriod ID="NBR">2.0</EndUseOfIntergreenPeriod>
+      <EndUseOfIntergreenPeriod ID="SBL">2.0</EndUseOfIntergreenPeriod>
+      <EndUseOfIntergreenPeriod ID="SBT">2.0</EndUseOfIntergreenPeriod>
+      <EndUseOfIntergreenPeriod ID="SBR">2.0</EndUseOfIntergreenPeriod>
+      <EndUseOfIntergreenPeriod ID="EBU">2.0</EndUseOfIntergreenPeriod>
+      <EndUseOfIntergreenPeriod ID="WBU">2.0</EndUseOfIntergreenPeriod>
+      <EndUseOfIntergreenPeriod ID="NBU">2.0</EndUseOfIntergreenPeriod>
+      <EndUseOfIntergreenPeriod ID="SBU">2.0</EndUseOfIntergreenPeriod>
+      <SaturationFlowRate ID="EBL">1900</SaturationFlowRate>
+      <SaturationFlowRate ID="EBT">1900</SaturationFlowRate>
+      <SaturationFlowRate ID="EBR">1900</SaturationFlowRate>
+      <SaturationFlowRate ID="WBL">1900</SaturationFlowRate>
+      <SaturationFlowRate ID="WBT">1900</SaturationFlowRate>
+      <SaturationFlowRate ID="WBR">1900</SaturationFlowRate>
+      <SaturationFlowRate ID="NBL">1900</SaturationFlowRate>
+      <SaturationFlowRate ID="NBT">1900</SaturationFlowRate>
+      <SaturationFlowRate ID="NBR">1900</SaturationFlowRate>
+      <SaturationFlowRate ID="SBL">1900</SaturationFlowRate>
+      <SaturationFlowRate ID="SBT">1900</SaturationFlowRate>
+      <SaturationFlowRate ID="SBR">1900</SaturationFlowRate>
+      <SaturationFlowRate ID="EBU">1900</SaturationFlowRate>
+      <SaturationFlowRate ID="WBU">1900</SaturationFlowRate>
+      <SaturationFlowRate ID="NBU">1900</SaturationFlowRate>
+      <SaturationFlowRate ID="SBU">1900</SaturationFlowRate>
+      <UpstreamFilteringMeteringFactor IsUserEntered="False" ID="EBT">1.00</UpstreamFilteringMeteringFactor>
+      <UpstreamFilteringMeteringFactor IsUserEntered="False" ID="WBT">1.00</UpstreamFilteringMeteringFactor>
+      <UpstreamFilteringMeteringFactor IsUserEntered="False" ID="NBT">0.89</UpstreamFilteringMeteringFactor>
+      <UpstreamFilteringMeteringFactor IsUserEntered="False" ID="SBT">1.00</UpstreamFilteringMeteringFactor>
+      <IntersectionProportionArrivingOnGreen_20 IsUserEntered="False" ID="EBL">0.04</IntersectionProportionArrivingOnGreen_20>
+      <IntersectionProportionArrivingOnGreen_20 IsUserEntered="False" ID="EBT">0.75</IntersectionProportionArrivingOnGreen_20>
+      <IntersectionProportionArrivingOnGreen_20 IsUserEntered="False" ID="EBR">0.14</IntersectionProportionArrivingOnGreen_20>
+      <IntersectionProportionArrivingOnGreen_20 IsUserEntered="False" ID="WBL">0.00</IntersectionProportionArrivingOnGreen_20>
+      <IntersectionProportionArrivingOnGreen_20 IsUserEntered="False" ID="WBT">0.20</IntersectionProportionArrivingOnGreen_20>
+      <IntersectionProportionArrivingOnGreen_20 IsUserEntered="False" ID="WBR">0.60</IntersectionProportionArrivingOnGreen_20>
+      <IntersectionProportionArrivingOnGreen_20 IsUserEntered="False" ID="NBL">0.00</IntersectionProportionArrivingOnGreen_20>
+      <IntersectionProportionArrivingOnGreen_20 IsUserEntered="False" ID="NBT">0.14</IntersectionProportionArrivingOnGreen_20>
+      <IntersectionProportionArrivingOnGreen_20 IsUserEntered="False" ID="NBR">0.00</IntersectionProportionArrivingOnGreen_20>
+      <IntersectionProportionArrivingOnGreen_20 IsUserEntered="False" ID="SBL">0.00</IntersectionProportionArrivingOnGreen_20>
+      <IntersectionProportionArrivingOnGreen_20 IsUserEntered="False" ID="SBT">0.00</IntersectionProportionArrivingOnGreen_20>
+      <IntersectionProportionArrivingOnGreen_20 IsUserEntered="False" ID="SBR">0.75</IntersectionProportionArrivingOnGreen_20>
+      <IntersectionProportionArrivingOnGreen_20 IsUserEntered="False" ID="EBU">0.00</IntersectionProportionArrivingOnGreen_20>
+      <IntersectionProportionArrivingOnGreen_20 IsUserEntered="False" ID="WBU">0.00</IntersectionProportionArrivingOnGreen_20>
+      <IntersectionProportionArrivingOnGreen_20 IsUserEntered="False" ID="NBU">0.00</IntersectionProportionArrivingOnGreen_20>
+      <IntersectionProportionArrivingOnGreen_20 IsUserEntered="False" ID="SBU">0.00</IntersectionProportionArrivingOnGreen_20>
+      <IntersectionProportionArrivingOnGreen_21 IsUserEntered="False" ID="EBL">0.04</IntersectionProportionArrivingOnGreen_21>
+      <IntersectionProportionArrivingOnGreen_21 IsUserEntered="False" ID="EBT">0.79</IntersectionProportionArrivingOnGreen_21>
+      <IntersectionProportionArrivingOnGreen_21 IsUserEntered="False" ID="EBR">0.14</IntersectionProportionArrivingOnGreen_21>
+      <IntersectionProportionArrivingOnGreen_21 IsUserEntered="False" ID="WBL">0.00</IntersectionProportionArrivingOnGreen_21>
+      <IntersectionProportionArrivingOnGreen_21 IsUserEntered="False" ID="WBT">0.08</IntersectionProportionArrivingOnGreen_21>
+      <IntersectionProportionArrivingOnGreen_21 IsUserEntered="False" ID="WBR">0.60</IntersectionProportionArrivingOnGreen_21>
+      <IntersectionProportionArrivingOnGreen_21 IsUserEntered="False" ID="NBL">0.00</IntersectionProportionArrivingOnGreen_21>
+      <IntersectionProportionArrivingOnGreen_21 IsUserEntered="False" ID="NBT">0.14</IntersectionProportionArrivingOnGreen_21>
+      <IntersectionProportionArrivingOnGreen_21 IsUserEntered="False" ID="NBR">0.00</IntersectionProportionArrivingOnGreen_21>
+      <IntersectionProportionArrivingOnGreen_21 IsUserEntered="False" ID="SBL">0.00</IntersectionProportionArrivingOnGreen_21>
+      <IntersectionProportionArrivingOnGreen_21 IsUserEntered="False" ID="SBT">0.00</IntersectionProportionArrivingOnGreen_21>
+      <IntersectionProportionArrivingOnGreen_21 IsUserEntered="False" ID="SBR">0.82</IntersectionProportionArrivingOnGreen_21>
+      <IntersectionProportionArrivingOnGreen_21 IsUserEntered="False" ID="EBU">0.00</IntersectionProportionArrivingOnGreen_21>
+      <IntersectionProportionArrivingOnGreen_21 IsUserEntered="False" ID="WBU">0.00</IntersectionProportionArrivingOnGreen_21>
+      <IntersectionProportionArrivingOnGreen_21 IsUserEntered="False" ID="NBU">0.00</IntersectionProportionArrivingOnGreen_21>
+      <IntersectionProportionArrivingOnGreen_21 IsUserEntered="False" ID="SBU">0.00</IntersectionProportionArrivingOnGreen_21>
+      <Volume ID="EBL">0</Volume>
+      <Volume ID="EBT">0</Volume>
+      <Volume ID="EBR">0</Volume>
+      <Volume ID="WBL">85</Volume>
+      <Volume ID="WBT">67</Volume>
+      <Volume ID="WBR">250</Volume>
+      <Volume ID="NBL">471</Volume>
+      <Volume ID="NBT">1628</Volume>
+      <Volume ID="NBR">570</Volume>
+      <Volume ID="SBL">53</Volume>
+      <Volume ID="SBT">1207</Volume>
+      <Volume ID="SBR">0</Volume>
+      <Volume ID="EBU">0</Volume>
+      <Volume ID="WBU">0</Volume>
+      <Volume ID="NBU">0</Volume>
+      <Volume ID="SBU">0</Volume>
+      <HeavyVehicles ID="EBL">0</HeavyVehicles>
+      <HeavyVehicles ID="EBT">0</HeavyVehicles>
+      <HeavyVehicles ID="EBR">0</HeavyVehicles>
+      <HeavyVehicles ID="WBL">0</HeavyVehicles>
+      <HeavyVehicles ID="WBT">0</HeavyVehicles>
+      <HeavyVehicles ID="WBR">0</HeavyVehicles>
+      <HeavyVehicles ID="NBL">0</HeavyVehicles>
+      <HeavyVehicles ID="NBT">0</HeavyVehicles>
+      <HeavyVehicles ID="NBR">0</HeavyVehicles>
+      <HeavyVehicles ID="SBL">0</HeavyVehicles>
+      <HeavyVehicles ID="SBT">0</HeavyVehicles>
+      <HeavyVehicles ID="SBR">0</HeavyVehicles>
+      <HeavyVehicles ID="EBU">0</HeavyVehicles>
+      <HeavyVehicles ID="WBU">0</HeavyVehicles>
+      <HeavyVehicles ID="NBU">0</HeavyVehicles>
+      <HeavyVehicles ID="SBU">0</HeavyVehicles>
+      <BusesStopping ID="EBL">0</BusesStopping>
+      <BusesStopping ID="EBT">0</BusesStopping>
+      <BusesStopping ID="EBR">0</BusesStopping>
+      <BusesStopping ID="WBL">0</BusesStopping>
+      <BusesStopping ID="WBT">0</BusesStopping>
+      <BusesStopping ID="WBR">0</BusesStopping>
+      <BusesStopping ID="NBL">0</BusesStopping>
+      <BusesStopping ID="NBT">0</BusesStopping>
+      <BusesStopping ID="NBR">0</BusesStopping>
+      <BusesStopping ID="SBL">0</BusesStopping>
+      <BusesStopping ID="SBT">0</BusesStopping>
+      <BusesStopping ID="SBR">0</BusesStopping>
+      <BusesStopping ID="EBU">0</BusesStopping>
+      <BusesStopping ID="WBU">0</BusesStopping>
+      <BusesStopping ID="NBU">0</BusesStopping>
+      <BusesStopping ID="SBU">0</BusesStopping>
+      <HeaviestLaneVolume ID="EBL">0</HeaviestLaneVolume>
+      <HeaviestLaneVolume ID="EBT">0</HeaviestLaneVolume>
+      <HeaviestLaneVolume ID="EBR">0</HeaviestLaneVolume>
+      <HeaviestLaneVolume ID="WBL">0</HeaviestLaneVolume>
+      <HeaviestLaneVolume ID="WBT">0</HeaviestLaneVolume>
+      <HeaviestLaneVolume ID="WBR">0</HeaviestLaneVolume>
+      <HeaviestLaneVolume ID="NBL">0</HeaviestLaneVolume>
+      <HeaviestLaneVolume ID="NBT">0</HeaviestLaneVolume>
+      <HeaviestLaneVolume ID="NBR">0</HeaviestLaneVolume>
+      <HeaviestLaneVolume ID="SBL">0</HeaviestLaneVolume>
+      <HeaviestLaneVolume ID="SBT">0</HeaviestLaneVolume>
+      <HeaviestLaneVolume ID="SBR">0</HeaviestLaneVolume>
+      <HeaviestLaneVolume ID="EBU">0</HeaviestLaneVolume>
+      <HeaviestLaneVolume ID="WBU">0</HeaviestLaneVolume>
+      <HeaviestLaneVolume ID="NBU">0</HeaviestLaneVolume>
+      <HeaviestLaneVolume ID="SBU">0</HeaviestLaneVolume>
+      <ParkingManeuvers ID="EBL">0</ParkingManeuvers>
+      <ParkingManeuvers ID="EBT">0</ParkingManeuvers>
+      <ParkingManeuvers ID="EBR">0</ParkingManeuvers>
+      <ParkingManeuvers ID="WBL">0</ParkingManeuvers>
+      <ParkingManeuvers ID="WBT">0</ParkingManeuvers>
+      <ParkingManeuvers ID="WBR">0</ParkingManeuvers>
+      <ParkingManeuvers ID="NBL">0</ParkingManeuvers>
+      <ParkingManeuvers ID="NBT">0</ParkingManeuvers>
+      <ParkingManeuvers ID="NBR">0</ParkingManeuvers>
+      <ParkingManeuvers ID="SBL">0</ParkingManeuvers>
+      <ParkingManeuvers ID="SBT">0</ParkingManeuvers>
+      <ParkingManeuvers ID="SBR">0</ParkingManeuvers>
+      <ParkingManeuvers ID="EBU">0</ParkingManeuvers>
+      <ParkingManeuvers ID="WBU">0</ParkingManeuvers>
+      <ParkingManeuvers ID="NBU">0</ParkingManeuvers>
+      <ParkingManeuvers ID="SBU">0</ParkingManeuvers>
+      <PercentTurnsInSharedLane ID="EBL">0</PercentTurnsInSharedLane>
+      <PercentTurnsInSharedLane ID="EBT">0</PercentTurnsInSharedLane>
+      <PercentTurnsInSharedLane ID="EBR">0</PercentTurnsInSharedLane>
+      <PercentTurnsInSharedLane ID="WBL">0</PercentTurnsInSharedLane>
+      <PercentTurnsInSharedLane ID="WBT">0</PercentTurnsInSharedLane>
+      <PercentTurnsInSharedLane ID="WBR">0</PercentTurnsInSharedLane>
+      <PercentTurnsInSharedLane ID="NBL">0</PercentTurnsInSharedLane>
+      <PercentTurnsInSharedLane ID="NBT">0</PercentTurnsInSharedLane>
+      <PercentTurnsInSharedLane ID="NBR">0</PercentTurnsInSharedLane>
+      <PercentTurnsInSharedLane ID="SBL">0</PercentTurnsInSharedLane>
+      <PercentTurnsInSharedLane ID="SBT">0</PercentTurnsInSharedLane>
+      <PercentTurnsInSharedLane ID="SBR">0</PercentTurnsInSharedLane>
+      <PercentTurnsInSharedLane ID="EBU">0</PercentTurnsInSharedLane>
+      <PercentTurnsInSharedLane ID="WBU">0</PercentTurnsInSharedLane>
+      <PercentTurnsInSharedLane ID="NBU">0</PercentTurnsInSharedLane>
+      <PercentTurnsInSharedLane ID="SBU">0</PercentTurnsInSharedLane>
+      <PercentUnopposedLeftTurns ID="EBL">0</PercentUnopposedLeftTurns>
+      <PercentUnopposedLeftTurns ID="EBT">0</PercentUnopposedLeftTurns>
+      <PercentUnopposedLeftTurns ID="EBR">0</PercentUnopposedLeftTurns>
+      <PercentUnopposedLeftTurns ID="WBL">0</PercentUnopposedLeftTurns>
+      <PercentUnopposedLeftTurns ID="WBT">0</PercentUnopposedLeftTurns>
+      <PercentUnopposedLeftTurns ID="WBR">0</PercentUnopposedLeftTurns>
+      <PercentUnopposedLeftTurns ID="NBL">0</PercentUnopposedLeftTurns>
+      <PercentUnopposedLeftTurns ID="NBT">0</PercentUnopposedLeftTurns>
+      <PercentUnopposedLeftTurns ID="NBR">0</PercentUnopposedLeftTurns>
+      <PercentUnopposedLeftTurns ID="SBL">0</PercentUnopposedLeftTurns>
+      <PercentUnopposedLeftTurns ID="SBT">0</PercentUnopposedLeftTurns>
+      <PercentUnopposedLeftTurns ID="SBR">0</PercentUnopposedLeftTurns>
+      <PercentUnopposedLeftTurns ID="EBU">0</PercentUnopposedLeftTurns>
+      <PercentUnopposedLeftTurns ID="WBU">0</PercentUnopposedLeftTurns>
+      <PercentUnopposedLeftTurns ID="NBU">0</PercentUnopposedLeftTurns>
+      <PercentUnopposedLeftTurns ID="SBU">0</PercentUnopposedLeftTurns>
+      <ParkingManeuverTime ID="EBL">18</ParkingManeuverTime>
+      <ParkingManeuverTime ID="EBT">18</ParkingManeuverTime>
+      <ParkingManeuverTime ID="EBR">18</ParkingManeuverTime>
+      <ParkingManeuverTime ID="WBL">18</ParkingManeuverTime>
+      <ParkingManeuverTime ID="WBT">18</ParkingManeuverTime>
+      <ParkingManeuverTime ID="WBR">18</ParkingManeuverTime>
+      <ParkingManeuverTime ID="NBL">18</ParkingManeuverTime>
+      <ParkingManeuverTime ID="NBT">18</ParkingManeuverTime>
+      <ParkingManeuverTime ID="NBR">18</ParkingManeuverTime>
+      <ParkingManeuverTime ID="SBL">18</ParkingManeuverTime>
+      <ParkingManeuverTime ID="SBT">18</ParkingManeuverTime>
+      <ParkingManeuverTime ID="SBR">18</ParkingManeuverTime>
+      <ParkingManeuverTime ID="EBU">18</ParkingManeuverTime>
+      <ParkingManeuverTime ID="WBU">18</ParkingManeuverTime>
+      <ParkingManeuverTime ID="NBU">18</ParkingManeuverTime>
+      <ParkingManeuverTime ID="SBU">18</ParkingManeuverTime>
+      <Bikes ID="EBL">0</Bikes>
+      <Bikes ID="EBT">0</Bikes>
+      <Bikes ID="EBR">0</Bikes>
+      <Bikes ID="WBL">0</Bikes>
+      <Bikes ID="WBT">0</Bikes>
+      <Bikes ID="WBR">0</Bikes>
+      <Bikes ID="NBL">0</Bikes>
+      <Bikes ID="NBT">0</Bikes>
+      <Bikes ID="NBR">0</Bikes>
+      <Bikes ID="SBL">0</Bikes>
+      <Bikes ID="SBT">0</Bikes>
+      <Bikes ID="SBR">0</Bikes>
+      <Bikes ID="EBU">0</Bikes>
+      <Bikes ID="WBU">0</Bikes>
+      <Bikes ID="NBU">0</Bikes>
+      <Bikes ID="SBU">0</Bikes>
+      <Peds ID="EBL">0</Peds>
+      <Peds ID="EBT">0</Peds>
+      <Peds ID="EBR">0</Peds>
+      <Peds ID="WBL">0</Peds>
+      <Peds ID="WBT">0</Peds>
+      <Peds ID="WBR">0</Peds>
+      <Peds ID="NBL">0</Peds>
+      <Peds ID="NBT">0</Peds>
+      <Peds ID="NBR">0</Peds>
+      <Peds ID="SBL">0</Peds>
+      <Peds ID="SBT">0</Peds>
+      <Peds ID="SBR">0</Peds>
+      <Peds ID="EBU">0</Peds>
+      <Peds ID="WBU">0</Peds>
+      <Peds ID="NBU">0</Peds>
+      <Peds ID="SBU">0</Peds>
+      <RightTurnsOnRed ID="EBT">0</RightTurnsOnRed>
+      <RightTurnsOnRed ID="WBT">0</RightTurnsOnRed>
+      <RightTurnsOnRed ID="NBT">0</RightTurnsOnRed>
+      <RightTurnsOnRed ID="SBT">0</RightTurnsOnRed>
+      <UnsignalizedDelayChecked ID="EBL">No</UnsignalizedDelayChecked>
+      <UnsignalizedDelayChecked ID="EBT">No</UnsignalizedDelayChecked>
+      <UnsignalizedDelayChecked ID="EBR">No</UnsignalizedDelayChecked>
+      <UnsignalizedDelayChecked ID="WBL">No</UnsignalizedDelayChecked>
+      <UnsignalizedDelayChecked ID="WBT">No</UnsignalizedDelayChecked>
+      <UnsignalizedDelayChecked ID="WBR">No</UnsignalizedDelayChecked>
+      <UnsignalizedDelayChecked ID="NBL">No</UnsignalizedDelayChecked>
+      <UnsignalizedDelayChecked ID="NBT">No</UnsignalizedDelayChecked>
+      <UnsignalizedDelayChecked ID="NBR">No</UnsignalizedDelayChecked>
+      <UnsignalizedDelayChecked ID="SBL">No</UnsignalizedDelayChecked>
+      <UnsignalizedDelayChecked ID="SBT">No</UnsignalizedDelayChecked>
+      <UnsignalizedDelayChecked ID="SBR">No</UnsignalizedDelayChecked>
+      <UnsignalizedDelayChecked ID="EBU">No</UnsignalizedDelayChecked>
+      <UnsignalizedDelayChecked ID="WBU">No</UnsignalizedDelayChecked>
+      <UnsignalizedDelayChecked ID="NBU">No</UnsignalizedDelayChecked>
+      <UnsignalizedDelayChecked ID="SBU">No</UnsignalizedDelayChecked>
+      <UnsignalizedDelaySeconds ID="EBL">0.0</UnsignalizedDelaySeconds>
+      <UnsignalizedDelaySeconds ID="EBT">0.0</UnsignalizedDelaySeconds>
+      <UnsignalizedDelaySeconds ID="EBR">0.0</UnsignalizedDelaySeconds>
+      <UnsignalizedDelaySeconds ID="WBL">0.0</UnsignalizedDelaySeconds>
+      <UnsignalizedDelaySeconds ID="WBT">0.0</UnsignalizedDelaySeconds>
+      <UnsignalizedDelaySeconds ID="WBR">0.0</UnsignalizedDelaySeconds>
+      <UnsignalizedDelaySeconds ID="NBL">0.0</UnsignalizedDelaySeconds>
+      <UnsignalizedDelaySeconds ID="NBT">0.0</UnsignalizedDelaySeconds>
+      <UnsignalizedDelaySeconds ID="NBR">0.0</UnsignalizedDelaySeconds>
+      <UnsignalizedDelaySeconds ID="SBL">0.0</UnsignalizedDelaySeconds>
+      <UnsignalizedDelaySeconds ID="SBT">0.0</UnsignalizedDelaySeconds>
+      <UnsignalizedDelaySeconds ID="SBR">0.0</UnsignalizedDelaySeconds>
+      <UnsignalizedDelaySeconds ID="EBU">0.0</UnsignalizedDelaySeconds>
+      <UnsignalizedDelaySeconds ID="WBU">0.0</UnsignalizedDelaySeconds>
+      <UnsignalizedDelaySeconds ID="NBU">0.0</UnsignalizedDelaySeconds>
+      <UnsignalizedDelaySeconds ID="SBU">0.0</UnsignalizedDelaySeconds>
+      <PedModeSig_PermittedLeftTurnFlow ID="EB">0</PedModeSig_PermittedLeftTurnFlow>
+      <PedModeSig_PermittedLeftTurnFlow ID="WB">0</PedModeSig_PermittedLeftTurnFlow>
+      <PedModeSig_PermittedLeftTurnFlow ID="NB">0</PedModeSig_PermittedLeftTurnFlow>
+      <PedModeSig_PermittedLeftTurnFlow ID="SB">0</PedModeSig_PermittedLeftTurnFlow>
+      <PedModeSig_OutgoingPedVolume ID="EB">0</PedModeSig_OutgoingPedVolume>
+      <PedModeSig_OutgoingPedVolume ID="WB">0</PedModeSig_OutgoingPedVolume>
+      <PedModeSig_OutgoingPedVolume ID="NB">0</PedModeSig_OutgoingPedVolume>
+      <PedModeSig_OutgoingPedVolume ID="SB">0</PedModeSig_OutgoingPedVolume>
+      <PedModeSig_IncomingPedVolume ID="EB">0</PedModeSig_IncomingPedVolume>
+      <PedModeSig_IncomingPedVolume ID="WB">0</PedModeSig_IncomingPedVolume>
+      <PedModeSig_IncomingPedVolume ID="NB">0</PedModeSig_IncomingPedVolume>
+      <PedModeSig_IncomingPedVolume ID="SB">0</PedModeSig_IncomingPedVolume>
+      <PedModeSig_CirculatingPedVolume ID="EB">0</PedModeSig_CirculatingPedVolume>
+      <PedModeSig_CirculatingPedVolume ID="WB">0</PedModeSig_CirculatingPedVolume>
+      <PedModeSig_CirculatingPedVolume ID="NB">0</PedModeSig_CirculatingPedVolume>
+      <PedModeSig_CirculatingPedVolume ID="SB">0</PedModeSig_CirculatingPedVolume>
+    </Period>
+  </INTERSECTION>
+  <SEGMENT Seg="1">
+    <SegmentName></SegmentName>
+    <AccessPointsActiveCount>0</AccessPointsActiveCount>
+    <IsSegmentCurved>False</IsSegmentCurved>
+    <Length ID="Forward direction">1000</Length>
+    <Length ID="Reverse direction">1000</Length>
+    <UpstreamWidth ID="Forward direction">50</UpstreamWidth>
+    <UpstreamWidth ID="Reverse direction">50</UpstreamWidth>
+    <LengthWithRestrictiveMedian ID="Forward direction">0</LengthWithRestrictiveMedian>
+    <LengthWithRestrictiveMedian ID="Reverse direction">0</LengthWithRestrictiveMedian>
+    <PercentageWithCurbOnRightHandSide ID="Forward direction">70</PercentageWithCurbOnRightHandSide>
+    <PercentageWithCurbOnRightHandSide ID="Reverse direction">70</PercentageWithCurbOnRightHandSide>
+    <NumberAccessPointsOnRightHandSide ID="Forward direction">0</NumberAccessPointsOnRightHandSide>
+    <NumberAccessPointsOnRightHandSide ID="Reverse direction">0</NumberAccessPointsOnRightHandSide>
+    <SegmentBaseFreeFlowSpeed IsUserEntered="False" ID="Forward direction">41.72</SegmentBaseFreeFlowSpeed>
+    <SegmentBaseFreeFlowSpeed IsUserEntered="False" ID="Reverse direction">41.72</SegmentBaseFreeFlowSpeed>
+    <SegmentFreeFlowSpeed IsUserEntered="False" ID="Forward direction">38.20</SegmentFreeFlowSpeed>
+    <SegmentFreeFlowSpeed IsUserEntered="False" ID="Reverse direction">38.20</SegmentFreeFlowSpeed>
+    <PercentageWithOnStreetParking ID="Forward direction">0</PercentageWithOnStreetParking>
+    <PercentageWithOnStreetParking ID="Reverse direction">0</PercentageWithOnStreetParking>
+    <BaseFreeFlowSpeedCalibrationFactor ID="Forward direction">0.0</BaseFreeFlowSpeedCalibrationFactor>
+    <BaseFreeFlowSpeedCalibrationFactor ID="Reverse direction">0.0</BaseFreeFlowSpeedCalibrationFactor>
+    <PedModeStreets_PedestrianFreeFlowSpeed ID="Forward direction">4.4</PedModeStreets_PedestrianFreeFlowSpeed>
+    <PedModeStreets_PedestrianFreeFlowSpeed ID="Reverse direction">4.4</PedModeStreets_PedestrianFreeFlowSpeed>
+    <PedModeStreets_DownstreamIntersectionWidth ID="Forward direction">0</PedModeStreets_DownstreamIntersectionWidth>
+    <PedModeStreets_DownstreamIntersectionWidth ID="Reverse direction">0</PedModeStreets_DownstreamIntersectionWidth>
+    <PedModeStreets_SidewalkPresence ID="Forward direction">No</PedModeStreets_SidewalkPresence>
+    <PedModeStreets_SidewalkPresence ID="Reverse direction">No</PedModeStreets_SidewalkPresence>
+    <PedModeStreets_InsideObjectEffectiveWidth ID="Forward direction">0.0</PedModeStreets_InsideObjectEffectiveWidth>
+    <PedModeStreets_InsideObjectEffectiveWidth ID="Reverse direction">0.0</PedModeStreets_InsideObjectEffectiveWidth>
+    <PedModeStreets_OutsideObjectEffectiveWidth ID="Forward direction">0.0</PedModeStreets_OutsideObjectEffectiveWidth>
+    <PedModeStreets_OutsideObjectEffectiveWidth ID="Reverse direction">0.0</PedModeStreets_OutsideObjectEffectiveWidth>
+    <PedModeStreets_BufferWidth ID="Forward direction">0.0</PedModeStreets_BufferWidth>
+    <PedModeStreets_BufferWidth ID="Reverse direction">0.0</PedModeStreets_BufferWidth>
+    <PedModeStreets_NearestSignalDistance ID="Forward direction">0</PedModeStreets_NearestSignalDistance>
+    <PedModeStreets_NearestSignalDistance ID="Reverse direction">0</PedModeStreets_NearestSignalDistance>
+    <PedModeStreets_AdjacentToWindow ID="Forward direction">0.00</PedModeStreets_AdjacentToWindow>
+    <PedModeStreets_AdjacentToWindow ID="Reverse direction">0.00</PedModeStreets_AdjacentToWindow>
+    <PedModeStreets_AdjacentToBuilding ID="Forward direction">0.00</PedModeStreets_AdjacentToBuilding>
+    <PedModeStreets_AdjacentToBuilding ID="Reverse direction">0.00</PedModeStreets_AdjacentToBuilding>
+    <PedModeStreets_AdjacentToFence ID="Forward direction">0.00</PedModeStreets_AdjacentToFence>
+    <PedModeStreets_AdjacentToFence ID="Reverse direction">0.00</PedModeStreets_AdjacentToFence>
+    <PedModeStreets_PedWaitingDelay ID="Forward direction">0.0</PedModeStreets_PedWaitingDelay>
+    <PedModeStreets_PedWaitingDelay ID="Reverse direction">0.0</PedModeStreets_PedWaitingDelay>
+    <Streets_MedianType ID="Forward direction">None</Streets_MedianType>
+    <Streets_MedianType ID="Reverse direction">None</Streets_MedianType>
+    <Streets_OnStreetParkingOccupied ID="Forward direction">0.50</Streets_OnStreetParkingOccupied>
+    <Streets_OnStreetParkingOccupied ID="Reverse direction">0.50</Streets_OnStreetParkingOccupied>
+    <Streets_OutsideThruLaneWidth ID="Forward direction">12</Streets_OutsideThruLaneWidth>
+    <Streets_OutsideThruLaneWidth ID="Reverse direction">12</Streets_OutsideThruLaneWidth>
+    <Streets_BicycleLaneWidth ID="Forward direction">5.0</Streets_BicycleLaneWidth>
+    <Streets_BicycleLaneWidth ID="Reverse direction">5.0</Streets_BicycleLaneWidth>
+    <Streets_PavedShoulderWidth ID="Forward direction">2.0</Streets_PavedShoulderWidth>
+    <Streets_PavedShoulderWidth ID="Reverse direction">2.0</Streets_PavedShoulderWidth>
+    <Streets_ParkingLaneWidth ID="Forward direction">0.0</Streets_ParkingLaneWidth>
+    <Streets_ParkingLaneWidth ID="Reverse direction">0.0</Streets_ParkingLaneWidth>
+    <Streets_PresenceOfCurb ID="Forward direction">No</Streets_PresenceOfCurb>
+    <Streets_PresenceOfCurb ID="Reverse direction">No</Streets_PresenceOfCurb>
+    <Streets_PresenceOfContinousBarrier ID="Forward direction">No</Streets_PresenceOfContinousBarrier>
+    <Streets_PresenceOfContinousBarrier ID="Reverse direction">No</Streets_PresenceOfContinousBarrier>
+    <Streets_TotalWalkwayWidth ID="Forward direction">9.0</Streets_TotalWalkwayWidth>
+    <Streets_TotalWalkwayWidth ID="Reverse direction">9.0</Streets_TotalWalkwayWidth>
+    <BicycleModeStreets_BikeRunningSpeed ID="Forward direction">15</BicycleModeStreets_BikeRunningSpeed>
+    <BicycleModeStreets_BikeRunningSpeed ID="Reverse direction">15</BicycleModeStreets_BikeRunningSpeed>
+    <BicycleModeStreets_PercentHeavyVehicles ID="Forward direction">0.0</BicycleModeStreets_PercentHeavyVehicles>
+    <BicycleModeStreets_PercentHeavyVehicles ID="Reverse direction">0.0</BicycleModeStreets_PercentHeavyVehicles>
+    <BicycleModeStreets_BikeAccessPoints ID="Forward direction">0</BicycleModeStreets_BikeAccessPoints>
+    <BicycleModeStreets_BikeAccessPoints ID="Reverse direction">0</BicycleModeStreets_BikeAccessPoints>
+    <BicycleModeStreets_PavementConditionRating ID="Forward direction">3.5</BicycleModeStreets_PavementConditionRating>
+    <BicycleModeStreets_PavementConditionRating ID="Reverse direction">3.5</BicycleModeStreets_PavementConditionRating>
+    <TransitModeStreets_ReEntryDelay ID="Forward direction">0.00</TransitModeStreets_ReEntryDelay>
+    <TransitModeStreets_ReEntryDelay ID="Reverse direction">0.00</TransitModeStreets_ReEntryDelay>
+    <TransitModeStreets_BaseTravelTimeRate ID="Forward direction">4.0</TransitModeStreets_BaseTravelTimeRate>
+    <TransitModeStreets_BaseTravelTimeRate ID="Reverse direction">4.0</TransitModeStreets_BaseTravelTimeRate>
+    <TransitModeStreets_NumberOfTransitStops ID="Forward direction">0</TransitModeStreets_NumberOfTransitStops>
+    <TransitModeStreets_NumberOfTransitStops ID="Reverse direction">0</TransitModeStreets_NumberOfTransitStops>
+    <TransitModeStreets_DwellTime ID="Forward direction">15.0</TransitModeStreets_DwellTime>
+    <TransitModeStreets_DwellTime ID="Reverse direction">15.0</TransitModeStreets_DwellTime>
+    <TransitModeStreets_ExcessWaitTime ID="Forward direction">0.00</TransitModeStreets_ExcessWaitTime>
+    <TransitModeStreets_ExcessWaitTime ID="Reverse direction">0.00</TransitModeStreets_ExcessWaitTime>
+    <TransitModeStreets_AveragePassengerTripLength ID="Forward direction">3.7</TransitModeStreets_AveragePassengerTripLength>
+    <TransitModeStreets_AveragePassengerTripLength ID="Reverse direction">3.7</TransitModeStreets_AveragePassengerTripLength>
+    <TransitModeStreets_TransitFrequency ID="Forward direction">4</TransitModeStreets_TransitFrequency>
+    <TransitModeStreets_TransitFrequency ID="Reverse direction">4</TransitModeStreets_TransitFrequency>
+    <TransitModeStreets_PassengerLoadFactor ID="Forward direction">0.80</TransitModeStreets_PassengerLoadFactor>
+    <TransitModeStreets_PassengerLoadFactor ID="Reverse direction">0.80</TransitModeStreets_PassengerLoadFactor>
+    <TransitModeStreets_TransitStopNearSide ID="Forward direction">No</TransitModeStreets_TransitStopNearSide>
+    <TransitModeStreets_TransitStopNearSide ID="Reverse direction">No</TransitModeStreets_TransitStopNearSide>
+    <TransitModeStreets_TransitStopOnLine ID="Forward direction">No</TransitModeStreets_TransitStopOnLine>
+    <TransitModeStreets_TransitStopOnLine ID="Reverse direction">No</TransitModeStreets_TransitStopOnLine>
+    <TransitModeStreets_StopsWithShelters ID="Forward direction">0.00</TransitModeStreets_StopsWithShelters>
+    <TransitModeStreets_StopsWithShelters ID="Reverse direction">0.00</TransitModeStreets_StopsWithShelters>
+    <TransitModeStreets_StopsWithBenches ID="Forward direction">0.00</TransitModeStreets_StopsWithBenches>
+    <TransitModeStreets_StopsWithBenches ID="Reverse direction">0.00</TransitModeStreets_StopsWithBenches>
+    <Period ID="1">
+      <MidSegmentDelays ID="Forward direction">0.0</MidSegmentDelays>
+      <MidSegmentDelays ID="Reverse direction">0.0</MidSegmentDelays>
+      <PedModeStreets_TwoWayPedVolume ID="Forward direction">0</PedModeStreets_TwoWayPedVolume>
+      <PedModeStreets_TwoWayPedVolume ID="Reverse direction">0</PedModeStreets_TwoWayPedVolume>
+      <OriginDestinationSegmentDirection>NB</OriginDestinationSegmentDirection>
+      <SegmentTravelSpeed IsUserEntered="False" ID="Forward direction">27.24</SegmentTravelSpeed>
+      <SegmentTravelSpeed IsUserEntered="False" ID="Reverse direction">20.47</SegmentTravelSpeed>
+      <UnblockedLanes IsUserEntered="False" ID="Forward direction">3</UnblockedLanes>
+      <UnblockedLanes IsUserEntered="False" ID="Reverse direction">3</UnblockedLanes>
+      <SegmentPeriodFwdRev ID="Forward direction">
+        <OriginDestination ID="UpstreamLeft_DownstreamLeft">0.02</OriginDestination>
+        <OriginDestination ID="UpstreamLeft_DownstreamThrough">0.91</OriginDestination>
+        <OriginDestination ID="UpstreamLeft_DownstreamRight">0.05</OriginDestination>
+        <OriginDestination ID="UpstreamLeft_DownstreamMidblock">0.02</OriginDestination>
+        <OriginDestination ID="UpstreamThrough_DownstreamLeft">0.10</OriginDestination>
+        <OriginDestination ID="UpstreamThrough_DownstreamThrough">0.78</OriginDestination>
+        <OriginDestination ID="UpstreamThrough_DownstreamRight">0.10</OriginDestination>
+        <OriginDestination ID="UpstreamThrough_DownstreamMidblock">0.02</OriginDestination>
+        <OriginDestination ID="UpstreamRight_DownstreamLeft">0.05</OriginDestination>
+        <OriginDestination ID="UpstreamRight_DownstreamThrough">0.92</OriginDestination>
+        <OriginDestination ID="UpstreamRight_DownstreamRight">0.02</OriginDestination>
+        <OriginDestination ID="UpstreamRight_DownstreamMidblock">0.01</OriginDestination>
+        <OriginDestination ID="UpstreamMidblock_DownstreamLeft">0.02</OriginDestination>
+        <OriginDestination ID="UpstreamMidblock_DownstreamThrough">0.97</OriginDestination>
+        <OriginDestination ID="UpstreamMidblock_DownstreamRight">0.01</OriginDestination>
+        <OriginDestination ID="UpstreamMidblock_DownstreamMidblock">0.00</OriginDestination>
+      </SegmentPeriodFwdRev>
+      <SegmentPeriodFwdRev ID="Reverse direction">
+        <OriginDestination ID="UpstreamLeft_DownstreamLeft">0.02</OriginDestination>
+        <OriginDestination ID="UpstreamLeft_DownstreamThrough">0.91</OriginDestination>
+        <OriginDestination ID="UpstreamLeft_DownstreamRight">0.05</OriginDestination>
+        <OriginDestination ID="UpstreamLeft_DownstreamMidblock">0.02</OriginDestination>
+        <OriginDestination ID="UpstreamThrough_DownstreamLeft">0.10</OriginDestination>
+        <OriginDestination ID="UpstreamThrough_DownstreamThrough">0.78</OriginDestination>
+        <OriginDestination ID="UpstreamThrough_DownstreamRight">0.10</OriginDestination>
+        <OriginDestination ID="UpstreamThrough_DownstreamMidblock">0.02</OriginDestination>
+        <OriginDestination ID="UpstreamRight_DownstreamLeft">0.05</OriginDestination>
+        <OriginDestination ID="UpstreamRight_DownstreamThrough">0.92</OriginDestination>
+        <OriginDestination ID="UpstreamRight_DownstreamRight">0.02</OriginDestination>
+        <OriginDestination ID="UpstreamRight_DownstreamMidblock">0.01</OriginDestination>
+        <OriginDestination ID="UpstreamMidblock_DownstreamLeft">0.02</OriginDestination>
+        <OriginDestination ID="UpstreamMidblock_DownstreamThrough">0.97</OriginDestination>
+        <OriginDestination ID="UpstreamMidblock_DownstreamRight">0.01</OriginDestination>
+        <OriginDestination ID="UpstreamMidblock_DownstreamMidblock">0.00</OriginDestination>
+      </SegmentPeriodFwdRev>
+    </Period>
+  </SEGMENT>
+  <OutputData>
+    <UrbanStreetForwardDirection>NB</UrbanStreetForwardDirection>
+    <SystemLengthForwardForward>1000</SystemLengthForwardForward>
+    <SystemLengthForwardReverse>1000</SystemLengthForwardReverse>
+    <GlobalPeriods>
+      <GlobalPeriod Index="0">
+        <FacilityTravelTime Index="0">25.03</FacilityTravelTime>
+        <FacilityTravelTime Index="1">33.31</FacilityTravelTime>
+        <SystemTotalEmission Index="0">705.29177603082000000000</SystemTotalEmission>
+        <SystemTotalEmission Index="1">721.47328480063300000000</SystemTotalEmission>
+        <SystemTotalStopRate Index="0">0.18022192248001700000</SystemTotalStopRate>
+        <SystemTotalStopRate Index="1">0.26209193249636500000</SystemTotalStopRate>
+        <FacilityTravelSpeed Index="0">27.24</FacilityTravelSpeed>
+        <FacilityTravelSpeed Index="1">20.47</FacilityTravelSpeed>
+        <SystemSpatialStopRate Index="0">0.95</SystemSpatialStopRate>
+        <SystemSpatialStopRate Index="1">1.38</SystemSpatialStopRate>
+        <SystemControllingTime Index="0">999.00</SystemControllingTime>
+        <FacilityBaseFreeFlowSpeed Index="0">41.72</FacilityBaseFreeFlowSpeed>
+        <FacilityBaseFreeFlowSpeed Index="1">41.72</FacilityBaseFreeFlowSpeed>
+        <FacilityPercentBaseFreeFlowSpeed Index="0">65.29</FacilityPercentBaseFreeFlowSpeed>
+        <FacilityPercentBaseFreeFlowSpeed Index="1">49.06</FacilityPercentBaseFreeFlowSpeed>
+        <FacilityLevelOfService Index="0">C</FacilityLevelOfService>
+        <FacilityLevelOfService Index="1">D</FacilityLevelOfService>
+        <FacilityAutoScore Index="0">2.28</FacilityAutoScore>
+        <FacilityAutoScore Index="1">2.35</FacilityAutoScore>
+      </GlobalPeriod>
+    </GlobalPeriods>
+    <Segments>
+      <Segment Index="0">
+        <SegmentSpeedLimit ID="Forward direction">35</SegmentSpeedLimit>
+        <SegmentSpeedLimit ID="Reverse direction">35</SegmentSpeedLimit>
+        <SegmentBaseFreeFlowSpeed IsUserEntered="False" ID="Forward direction">41.72</SegmentBaseFreeFlowSpeed>
+        <SegmentBaseFreeFlowSpeed IsUserEntered="False" ID="Reverse direction">41.72</SegmentBaseFreeFlowSpeed>
+        <PercentageWithCurbOnRightHandSide ID="Forward direction">70</PercentageWithCurbOnRightHandSide>
+        <PercentageWithCurbOnRightHandSide ID="Reverse direction">70</PercentageWithCurbOnRightHandSide>
+        <LengthWithRestrictiveMedian ID="Forward direction">0</LengthWithRestrictiveMedian>
+        <LengthWithRestrictiveMedian ID="Reverse direction">0</LengthWithRestrictiveMedian>
+        <Length ID="Forward direction">1000</Length>
+        <Length ID="Reverse direction">1000</Length>
+        <PercentageWithOnStreetParking ID="Forward direction">0</PercentageWithOnStreetParking>
+        <PercentageWithOnStreetParking ID="Reverse direction">0</PercentageWithOnStreetParking>
+        <BaseFreeFlowSpeedCalibrationFactor ID="Forward direction">0.0</BaseFreeFlowSpeedCalibrationFactor>
+        <BaseFreeFlowSpeedCalibrationFactor ID="Reverse direction">0.0</BaseFreeFlowSpeedCalibrationFactor>
+        <UpstreamWidth ID="Forward direction">50</UpstreamWidth>
+        <UpstreamWidth ID="Reverse direction">50</UpstreamWidth>
+        <Periods>
+          <SegmentPeriod Index="0">
+            <OtherDelay ID="NB">0.0</OtherDelay>
+            <OtherDelay ID="SB">0.0</OtherDelay>
+            <BayLaneSpillbackTime ID="NBL"></BayLaneSpillbackTime>
+            <BayLaneSpillbackTime ID="NBT">never</BayLaneSpillbackTime>
+            <BayLaneSpillbackTime ID="NBR"></BayLaneSpillbackTime>
+            <BayLaneSpillbackTime ID="SBL"></BayLaneSpillbackTime>
+            <BayLaneSpillbackTime ID="SBT">never</BayLaneSpillbackTime>
+            <BayLaneSpillbackTime ID="SBR"></BayLaneSpillbackTime>
+            <SharedLaneSpillbackTime ID="NBL">never</SharedLaneSpillbackTime>
+            <SharedLaneSpillbackTime ID="NBT"></SharedLaneSpillbackTime>
+            <SharedLaneSpillbackTime ID="NBR"></SharedLaneSpillbackTime>
+            <SharedLaneSpillbackTime ID="SBL">never</SharedLaneSpillbackTime>
+            <SharedLaneSpillbackTime ID="SBT"></SharedLaneSpillbackTime>
+            <SharedLaneSpillbackTime ID="SBR"></SharedLaneSpillbackTime>
+            <RunningTime ID="NB">19.95</RunningTime>
+            <RunningTime ID="SB">19.96</RunningTime>
+            <RunningSpeed ID="NB">34.17</RunningSpeed>
+            <RunningSpeed ID="SB">34.16</RunningSpeed>
+            <ThroughDelay ID="NB">5.08</ThroughDelay>
+            <ThroughDelay ID="SB">13.35</ThroughDelay>
+            <TravelTime ID="NB">25.03</TravelTime>
+            <TravelTime ID="SB">33.31</TravelTime>
+            <TravelSpeed IsUserEntered="False" ID="NB">27.24</TravelSpeed>
+            <TravelSpeed IsUserEntered="False" ID="SB">20.47</TravelSpeed>
+            <UnblockedLanes IsUserEntered="False" ID="NB">3</UnblockedLanes>
+            <UnblockedLanes IsUserEntered="False" ID="SB">3</UnblockedLanes>
+            <StopRate ID="NB">0.18</StopRate>
+            <StopRate ID="SB">0.26</StopRate>
+            <SpatialStopRate ID="NB">0.95</SpatialStopRate>
+            <SpatialStopRate ID="SB">1.38</SpatialStopRate>
+            <ThroughVolumeRatio ID="NB">0.22</ThroughVolumeRatio>
+            <ThroughVolumeRatio ID="SB">0.35</ThroughVolumeRatio>
+            <PercentOfBaseFFS ID="NB">65.29</PercentOfBaseFFS>
+            <PercentOfBaseFFS ID="SB">49.06</PercentOfBaseFFS>
+            <LevelOfService ID="NB">C</LevelOfService>
+            <LevelOfService ID="SB">D</LevelOfService>
+            <AutoTravelerScore ID="NB">2.28</AutoTravelerScore>
+            <AutoTravelerScore ID="SB">2.35</AutoTravelerScore>
+            <PedestrainSegmentScore ID="NB">3.39</PedestrainSegmentScore>
+            <PedestrainSegmentScore ID="SB">3.38</PedestrainSegmentScore>
+            <PedestrainSegmentLOS ID="NB">C</PedestrainSegmentLOS>
+            <PedestrainSegmentLOS ID="SB">C</PedestrainSegmentLOS>
+            <BicyleSegmentScore ID="NB">2.70</BicyleSegmentScore>
+            <BicyleSegmentScore ID="SB">2.66</BicyleSegmentScore>
+            <BicyleSegmentLOS ID="NB">B</BicyleSegmentLOS>
+            <BicyleSegmentLOS ID="SB">B</BicyleSegmentLOS>
+            <TransitSegmentScore ID="NB">1.14</TransitSegmentScore>
+            <TransitSegmentScore ID="SB">1.69</TransitSegmentScore>
+            <TransitSegmentLOS ID="NB">A</TransitSegmentLOS>
+            <TransitSegmentLOS ID="SB">A</TransitSegmentLOS>
+            <PedestrainFacilityScore ID="NB">3.39</PedestrainFacilityScore>
+            <PedestrainFacilityScore ID="SB">3.38</PedestrainFacilityScore>
+            <PedestrainFacilityLOS ID="NB">C</PedestrainFacilityLOS>
+            <PedestrainFacilityLOS ID="SB">C</PedestrainFacilityLOS>
+            <BicyleFacilityScore ID="NB">2.70</BicyleFacilityScore>
+            <BicyleFacilityScore ID="SB">2.66</BicyleFacilityScore>
+            <BicyleFacilityLOS ID="NB">C</BicyleFacilityLOS>
+            <BicyleFacilityLOS ID="SB">C</BicyleFacilityLOS>
+            <TransitFacilityScore ID="NB">1.14</TransitFacilityScore>
+            <TransitFacilityScore ID="SB">1.69</TransitFacilityScore>
+            <TransitFacilityLOS ID="NB">A</TransitFacilityLOS>
+            <TransitFacilityLOS ID="SB">A</TransitFacilityLOS>
+          </SegmentPeriod>
+        </Periods>
+      </Segment>
+    </Segments>
+    <Intersections>
+      <Intersection Index="0">
+        <ReferencePhase>2</ReferencePhase>
+        <Offset>0</Offset>
+        <Reference>End</Reference>
+        <UncoordinatedIntersection>No</UncoordinatedIntersection>
+        <ForceMode>Fixed</ForceMode>
+        <SimultaneousGapOut ID="E/W">On</SimultaneousGapOut>
+        <SimultaneousGapOut ID="N/S">On</SimultaneousGapOut>
+        <AssignedMovement ID="EBL">7</AssignedMovement>
+        <AssignedMovement ID="EBT">4</AssignedMovement>
+        <AssignedMovement ID="EBR">14</AssignedMovement>
+        <AssignedMovement ID="WBL">3</AssignedMovement>
+        <AssignedMovement ID="WBT">8</AssignedMovement>
+        <AssignedMovement ID="WBR">18</AssignedMovement>
+        <AssignedMovement ID="SBL">1</AssignedMovement>
+        <AssignedMovement ID="SBT">6</AssignedMovement>
+        <AssignedMovement ID="SBR">16</AssignedMovement>
+        <AssignedMovement ID="NBL">5</AssignedMovement>
+        <AssignedMovement ID="NBT">2</AssignedMovement>
+        <AssignedMovement ID="NBR">12</AssignedMovement>
+        <AssignedPhase ID="EBL">7</AssignedPhase>
+        <AssignedPhase ID="EBT">4</AssignedPhase>
+        <AssignedPhase ID="WBL">3</AssignedPhase>
+        <AssignedPhase ID="WBT">8</AssignedPhase>
+        <AssignedPhase ID="SBL">1</AssignedPhase>
+        <AssignedPhase ID="SBT">6</AssignedPhase>
+        <AssignedPhase ID="NBL">5</AssignedPhase>
+        <AssignedPhase ID="NBT">2</AssignedPhase>
+        <ChangePeriod ID="EBL">3.3</ChangePeriod>
+        <ChangePeriod ID="EBT">3.2</ChangePeriod>
+        <ChangePeriod ID="WBL">3.1</ChangePeriod>
+        <ChangePeriod ID="WBT">3.2</ChangePeriod>
+        <ChangePeriod ID="SBL">4.3</ChangePeriod>
+        <ChangePeriod ID="SBT">4.0</ChangePeriod>
+        <ChangePeriod ID="NBL">4.0</ChangePeriod>
+        <ChangePeriod ID="NBT">4.0</ChangePeriod>
+        <CaseNumber ID="EBL">2.0</CaseNumber>
+        <CaseNumber ID="EBT">4.0</CaseNumber>
+        <CaseNumber ID="WBL">1.1</CaseNumber>
+        <CaseNumber ID="WBT">3.0</CaseNumber>
+        <CaseNumber ID="SBL">2.0</CaseNumber>
+        <CaseNumber ID="SBT">3.0</CaseNumber>
+        <CaseNumber ID="NBL">2.0</CaseNumber>
+        <CaseNumber ID="NBT">3.0</CaseNumber>
+        <Periods>
+          <IntersectionPeriod Index="0">
+            <PhaseDuration ID="EBL">20.4</PhaseDuration>
+            <PhaseDuration ID="EBT">33.1</PhaseDuration>
+            <PhaseDuration ID="WBL">16.7</PhaseDuration>
+            <PhaseDuration ID="WBT">29.4</PhaseDuration>
+            <PhaseDuration ID="SBL">17.6</PhaseDuration>
+            <PhaseDuration ID="SBT">77.2</PhaseDuration>
+            <PhaseDuration ID="NBL">33.0</PhaseDuration>
+            <PhaseDuration ID="NBT">92.6</PhaseDuration>
+            <GreenRatio ID="EBL">0.11</GreenRatio>
+            <GreenRatio ID="EBT">0.19</GreenRatio>
+            <GreenRatio ID="EBR"></GreenRatio>
+            <GreenRatio ID="WBL">0.25</GreenRatio>
+            <GreenRatio ID="WBT">0.16</GreenRatio>
+            <GreenRatio ID="WBR">0.16</GreenRatio>
+            <GreenRatio ID="SBL">0.08</GreenRatio>
+            <GreenRatio ID="SBT">0.46</GreenRatio>
+            <GreenRatio ID="SBR">0.46</GreenRatio>
+            <GreenRatio ID="NBL">0.18</GreenRatio>
+            <GreenRatio ID="NBT">0.55</GreenRatio>
+            <GreenRatio ID="NBR">0.55</GreenRatio>
+            <AdjustedFlowRate ID="EBL">138</AdjustedFlowRate>
+            <AdjustedFlowRate ID="EBT">174</AdjustedFlowRate>
+            <AdjustedFlowRate ID="EBR"></AdjustedFlowRate>
+            <AdjustedFlowRate ID="WBL">216</AdjustedFlowRate>
+            <AdjustedFlowRate ID="WBT">61</AdjustedFlowRate>
+            <AdjustedFlowRate ID="WBR">153</AdjustedFlowRate>
+            <AdjustedFlowRate ID="SBL">133</AdjustedFlowRate>
+            <AdjustedFlowRate ID="SBT">830</AdjustedFlowRate>
+            <AdjustedFlowRate ID="SBR">472</AdjustedFlowRate>
+            <AdjustedFlowRate ID="NBL">297</AdjustedFlowRate>
+            <AdjustedFlowRate ID="NBT">1139</AdjustedFlowRate>
+            <AdjustedFlowRate ID="NBR">166</AdjustedFlowRate>
+            <AdjustedSaturationFlowRate ID="EBL">1810</AdjustedSaturationFlowRate>
+            <AdjustedSaturationFlowRate ID="EBT">1662</AdjustedSaturationFlowRate>
+            <AdjustedSaturationFlowRate ID="EBR"></AdjustedSaturationFlowRate>
+            <AdjustedSaturationFlowRate ID="WBL">1810</AdjustedSaturationFlowRate>
+            <AdjustedSaturationFlowRate ID="WBT">1900</AdjustedSaturationFlowRate>
+            <AdjustedSaturationFlowRate ID="WBR">1610</AdjustedSaturationFlowRate>
+            <AdjustedSaturationFlowRate ID="SBL">1757</AdjustedSaturationFlowRate>
+            <AdjustedSaturationFlowRate ID="SBT">1725</AdjustedSaturationFlowRate>
+            <AdjustedSaturationFlowRate ID="SBR">1610</AdjustedSaturationFlowRate>
+            <AdjustedSaturationFlowRate ID="NBL">1757</AdjustedSaturationFlowRate>
+            <AdjustedSaturationFlowRate ID="NBT">1725</AdjustedSaturationFlowRate>
+            <AdjustedSaturationFlowRate ID="NBR">1610</AdjustedSaturationFlowRate>
+            <QueueServiceTime ID="EBL">11.8</QueueServiceTime>
+            <QueueServiceTime ID="EBT">15.3</QueueServiceTime>
+            <QueueServiceTime ID="EBR"></QueueServiceTime>
+            <QueueServiceTime ID="WBL">13.6</QueueServiceTime>
+            <QueueServiceTime ID="WBT">4.4</QueueServiceTime>
+            <QueueServiceTime ID="WBR">14.1</QueueServiceTime>
+            <QueueServiceTime ID="SBL">6.0</QueueServiceTime>
+            <QueueServiceTime ID="SBT">9.3</QueueServiceTime>
+            <QueueServiceTime ID="SBR">21.7</QueueServiceTime>
+            <QueueServiceTime ID="NBL">12.1</QueueServiceTime>
+            <QueueServiceTime ID="NBT">20.1</QueueServiceTime>
+            <QueueServiceTime ID="NBR">8.2</QueueServiceTime>
+            <CycleQueueClearanceTime ID="EBL">11.8</CycleQueueClearanceTime>
+            <CycleQueueClearanceTime ID="EBT">15.3</CycleQueueClearanceTime>
+            <CycleQueueClearanceTime ID="EBR"></CycleQueueClearanceTime>
+            <CycleQueueClearanceTime ID="WBL">13.6</CycleQueueClearanceTime>
+            <CycleQueueClearanceTime ID="WBT">4.4</CycleQueueClearanceTime>
+            <CycleQueueClearanceTime ID="WBR">14.1</CycleQueueClearanceTime>
+            <CycleQueueClearanceTime ID="SBL">6.0</CycleQueueClearanceTime>
+            <CycleQueueClearanceTime ID="SBT">9.3</CycleQueueClearanceTime>
+            <CycleQueueClearanceTime ID="SBR">21.7</CycleQueueClearanceTime>
+            <CycleQueueClearanceTime ID="NBL">12.1</CycleQueueClearanceTime>
+            <CycleQueueClearanceTime ID="NBT">20.1</CycleQueueClearanceTime>
+            <CycleQueueClearanceTime ID="NBR">8.2</CycleQueueClearanceTime>
+            <Capacity ID="EBL">193</Capacity>
+            <Capacity ID="EBT">311</Capacity>
+            <Capacity ID="EBR"></Capacity>
+            <Capacity ID="WBL">296</Capacity>
+            <Capacity ID="WBT">311</Capacity>
+            <Capacity ID="WBR">264</Capacity>
+            <Capacity ID="SBL">292</Capacity>
+            <Capacity ID="SBT">2368</Capacity>
+            <Capacity ID="SBR">737</Capacity>
+            <Capacity ID="NBL">637</Capacity>
+            <Capacity ID="NBT">2866</Capacity>
+            <Capacity ID="NBR">892</Capacity>
+            <AvailableCapacity ID="EBL">193</AvailableCapacity>
+            <AvailableCapacity ID="EBT">311</AvailableCapacity>
+            <AvailableCapacity ID="EBR"></AvailableCapacity>
+            <AvailableCapacity ID="WBL">296</AvailableCapacity>
+            <AvailableCapacity ID="WBT">311</AvailableCapacity>
+            <AvailableCapacity ID="WBR">264</AvailableCapacity>
+            <AvailableCapacity ID="SBL">292</AvailableCapacity>
+            <AvailableCapacity ID="SBT">2368</AvailableCapacity>
+            <AvailableCapacity ID="SBR">737</AvailableCapacity>
+            <AvailableCapacity ID="NBL">637</AvailableCapacity>
+            <AvailableCapacity ID="NBT">2866</AvailableCapacity>
+            <AvailableCapacity ID="NBR">892</AvailableCapacity>
+            <UniformDelay ID="EBL">69.1</UniformDelay>
+            <UniformDelay ID="EBT">59.1</UniformDelay>
+            <UniformDelay ID="EBR"></UniformDelay>
+            <UniformDelay ID="WBL">54.1</UniformDelay>
+            <UniformDelay ID="WBT">57.8</UniformDelay>
+            <UniformDelay ID="WBR">61.8</UniformDelay>
+            <UniformDelay ID="SBL">76.4</UniformDelay>
+            <UniformDelay ID="SBT">13.0</UniformDelay>
+            <UniformDelay ID="SBR">12.7</UniformDelay>
+            <UniformDelay ID="NBL">58.6</UniformDelay>
+            <UniformDelay ID="NBT">20.4</UniformDelay>
+            <UniformDelay ID="NBR">17.8</UniformDelay>
+            <QueueClearanceTime ID="EBL">13.8</QueueClearanceTime>
+            <QueueClearanceTime ID="EBT">17.3</QueueClearanceTime>
+            <QueueClearanceTime ID="WBL">15.6</QueueClearanceTime>
+            <QueueClearanceTime ID="WBT">16.1</QueueClearanceTime>
+            <QueueClearanceTime ID="SBL">8.0</QueueClearanceTime>
+            <QueueClearanceTime ID="SBT"></QueueClearanceTime>
+            <QueueClearanceTime ID="NBL">14.1</QueueClearanceTime>
+            <QueueClearanceTime ID="NBT"></QueueClearanceTime>
+            <MaxAllowHeadway ID="EBL">3.1</MaxAllowHeadway>
+            <MaxAllowHeadway ID="EBT">3.3</MaxAllowHeadway>
+            <MaxAllowHeadway ID="WBL">3.1</MaxAllowHeadway>
+            <MaxAllowHeadway ID="WBT">3.3</MaxAllowHeadway>
+            <MaxAllowHeadway ID="SBL">3.1</MaxAllowHeadway>
+            <MaxAllowHeadway ID="SBT">0.0</MaxAllowHeadway>
+            <MaxAllowHeadway ID="NBL">3.1</MaxAllowHeadway>
+            <MaxAllowHeadway ID="NBT">0.0</MaxAllowHeadway>
+            <GreenExtensionTime ID="EBL">0.1</GreenExtensionTime>
+            <GreenExtensionTime ID="EBT">0.7</GreenExtensionTime>
+            <GreenExtensionTime ID="WBL">0.0</GreenExtensionTime>
+            <GreenExtensionTime ID="WBT">0.6</GreenExtensionTime>
+            <GreenExtensionTime ID="SBL">0.1</GreenExtensionTime>
+            <GreenExtensionTime ID="SBT">0.0</GreenExtensionTime>
+            <GreenExtensionTime ID="NBL">0.6</GreenExtensionTime>
+            <GreenExtensionTime ID="NBT">0.0</GreenExtensionTime>
+            <MaxOutProbability ID="EBL">0.79</MaxOutProbability>
+            <MaxOutProbability ID="EBT">0.00</MaxOutProbability>
+            <MaxOutProbability ID="WBL">1.00</MaxOutProbability>
+            <MaxOutProbability ID="WBT">0.01</MaxOutProbability>
+            <MaxOutProbability ID="SBL">0.05</MaxOutProbability>
+            <MaxOutProbability ID="SBT"></MaxOutProbability>
+            <MaxOutProbability ID="NBL">0.00</MaxOutProbability>
+            <MaxOutProbability ID="NBT"></MaxOutProbability>
+            <PhaseCallProbability ID="EBL">1.00</PhaseCallProbability>
+            <PhaseCallProbability ID="EBT">1.00</PhaseCallProbability>
+            <PhaseCallProbability ID="WBL">1.00</PhaseCallProbability>
+            <PhaseCallProbability ID="WBT">1.00</PhaseCallProbability>
+            <PhaseCallProbability ID="SBL">1.00</PhaseCallProbability>
+            <PhaseCallProbability ID="SBT"></PhaseCallProbability>
+            <PhaseCallProbability ID="NBL">1.00</PhaseCallProbability>
+            <PhaseCallProbability ID="NBT"></PhaseCallProbability>
+            <InitialQueueDelay ID="EBL">0.0</InitialQueueDelay>
+            <InitialQueueDelay ID="EBT">0.0</InitialQueueDelay>
+            <InitialQueueDelay ID="WBL">0.0</InitialQueueDelay>
+            <InitialQueueDelay ID="WBT">0.0</InitialQueueDelay>
+            <InitialQueueDelay ID="WBR">0.0</InitialQueueDelay>
+            <InitialQueueDelay ID="SBL">0.0</InitialQueueDelay>
+            <InitialQueueDelay ID="SBT">0.0</InitialQueueDelay>
+            <InitialQueueDelay ID="SBR">0.0</InitialQueueDelay>
+            <InitialQueueDelay ID="NBL">0.0</InitialQueueDelay>
+            <InitialQueueDelay ID="NBT">0.0</InitialQueueDelay>
+            <InitialQueueDelay ID="NBR">0.0</InitialQueueDelay>
+            <IncrementalDelay ID="EBL">10.1</IncrementalDelay>
+            <IncrementalDelay ID="EBT">1.4</IncrementalDelay>
+            <IncrementalDelay ID="WBL">7.7</IncrementalDelay>
+            <IncrementalDelay ID="WBT">0.1</IncrementalDelay>
+            <IncrementalDelay ID="WBR">2.2</IncrementalDelay>
+            <IncrementalDelay ID="SBL">0.4</IncrementalDelay>
+            <IncrementalDelay ID="SBT">0.4</IncrementalDelay>
+            <IncrementalDelay ID="SBR">3.9</IncrementalDelay>
+            <IncrementalDelay ID="NBL">0.2</IncrementalDelay>
+            <IncrementalDelay ID="NBT">0.4</IncrementalDelay>
+            <IncrementalDelay ID="NBR">0.5</IncrementalDelay>
+            <QueueStorageRatio ID="EBL">0.71</QueueStorageRatio>
+            <QueueStorageRatio ID="EBT">0.00</QueueStorageRatio>
+            <QueueStorageRatio ID="WBL">0.47</QueueStorageRatio>
+            <QueueStorageRatio ID="WBT">0.00</QueueStorageRatio>
+            <QueueStorageRatio ID="WBR">0.00</QueueStorageRatio>
+            <QueueStorageRatio ID="SBL">0.21</QueueStorageRatio>
+            <QueueStorageRatio ID="SBT">0.00</QueueStorageRatio>
+            <QueueStorageRatio ID="SBR">0.00</QueueStorageRatio>
+            <QueueStorageRatio ID="NBL">0.53</QueueStorageRatio>
+            <QueueStorageRatio ID="NBT">0.00</QueueStorageRatio>
+            <QueueStorageRatio ID="NBR">0.00</QueueStorageRatio>
+            <BackOfQueue ID="EBL">6.0</BackOfQueue>
+            <BackOfQueue ID="EBT">6.6</BackOfQueue>
+            <BackOfQueue ID="WBL">2.2</BackOfQueue>
+            <BackOfQueue ID="WBT">2.2</BackOfQueue>
+            <BackOfQueue ID="WBR">5.9</BackOfQueue>
+            <BackOfQueue ID="SBL">2.9</BackOfQueue>
+            <BackOfQueue ID="SBT">3.2</BackOfQueue>
+            <BackOfQueue ID="SBR">5.1</BackOfQueue>
+            <BackOfQueue ID="NBL">5.4</BackOfQueue>
+            <BackOfQueue ID="NBT">8.2</BackOfQueue>
+            <BackOfQueue ID="NBR">3.2</BackOfQueue>
+            <ControlDelay ID="EBL">79.1</ControlDelay>
+            <ControlDelay ID="EBT">60.5</ControlDelay>
+            <ControlDelay ID="WBL">61.7</ControlDelay>
+            <ControlDelay ID="WBT">57.9</ControlDelay>
+            <ControlDelay ID="WBR">64.0</ControlDelay>
+            <ControlDelay ID="SBL">76.7</ControlDelay>
+            <ControlDelay ID="SBT">13.4</ControlDelay>
+            <ControlDelay ID="SBR">16.6</ControlDelay>
+            <ControlDelay ID="NBL">58.8</ControlDelay>
+            <ControlDelay ID="NBT">20.8</ControlDelay>
+            <ControlDelay ID="NBR">18.2</ControlDelay>
+            <VolumeToCapacityRatio ID="EBL">0.712</VolumeToCapacityRatio>
+            <VolumeToCapacityRatio ID="EBT">0.562</VolumeToCapacityRatio>
+            <VolumeToCapacityRatio ID="WBL">0.728</VolumeToCapacityRatio>
+            <VolumeToCapacityRatio ID="WBT">0.196</VolumeToCapacityRatio>
+            <VolumeToCapacityRatio ID="WBR">0.582</VolumeToCapacityRatio>
+            <VolumeToCapacityRatio ID="SBL">0.455</VolumeToCapacityRatio>
+            <VolumeToCapacityRatio ID="SBT">0.351</VolumeToCapacityRatio>
+            <VolumeToCapacityRatio ID="SBR">0.641</VolumeToCapacityRatio>
+            <VolumeToCapacityRatio ID="NBL">0.466</VolumeToCapacityRatio>
+            <VolumeToCapacityRatio ID="NBT">0.397</VolumeToCapacityRatio>
+            <VolumeToCapacityRatio ID="NBR">0.186</VolumeToCapacityRatio>
+            <LevelOfService ID="EBL">E</LevelOfService>
+            <LevelOfService ID="EBT">E</LevelOfService>
+            <LevelOfService ID="WBL">E</LevelOfService>
+            <LevelOfService ID="WBT">E</LevelOfService>
+            <LevelOfService ID="WBR">E</LevelOfService>
+            <LevelOfService ID="SBL">E</LevelOfService>
+            <LevelOfService ID="SBT">B</LevelOfService>
+            <LevelOfService ID="SBR">B</LevelOfService>
+            <LevelOfService ID="NBL">E</LevelOfService>
+            <LevelOfService ID="NBT">C</LevelOfService>
+            <LevelOfService ID="NBR">B</LevelOfService>
+            <PedLOSScore ID="EB">2.87</PedLOSScore>
+            <PedLOSScore ID="WB">2.87</PedLOSScore>
+            <PedLOSScore ID="NB">2.27</PedLOSScore>
+            <PedLOSScore ID="SB">2.11</PedLOSScore>
+            <PedLOS ID="EB">C</PedLOS>
+            <PedLOS ID="WB">C</PedLOS>
+            <PedLOS ID="NB">B</PedLOS>
+            <PedLOS ID="SB">B</PedLOS>
+            <BikeLOSScore ID="EB">1.00</BikeLOSScore>
+            <BikeLOSScore ID="WB">1.20</BikeLOSScore>
+            <BikeLOSScore ID="NB">1.37</BikeLOSScore>
+            <BikeLOSScore ID="SB">1.70</BikeLOSScore>
+            <BikeLOS ID="EB">A</BikeLOS>
+            <BikeLOS ID="WB">A</BikeLOS>
+            <BikeLOS ID="NB">A</BikeLOS>
+            <BikeLOS ID="SB">B</BikeLOS>
+            <Volumes ID="EBL">124</Volumes>
+            <Volumes ID="EBT">32</Volumes>
+            <Volumes ID="EBR">125</Volumes>
+            <Volumes ID="WBL">194</Volumes>
+            <Volumes ID="WBT">55</Volumes>
+            <Volumes ID="WBR">138</Volumes>
+            <Volumes ID="SBL">183</Volumes>
+            <Volumes ID="SBT">1144</Volumes>
+            <Volumes ID="SBR">651</Volumes>
+            <Volumes ID="NBL">267</Volumes>
+            <Volumes ID="NBT">1025</Volumes>
+            <Volumes ID="NBR">149</Volumes>
+            <ApproachDelay ID="EB">68.7</ApproachDelay>
+            <ApproachDelay ID="WB">62.0</ApproachDelay>
+            <ApproachDelay ID="NB">27.6</ApproachDelay>
+            <ApproachDelay ID="SB">20.3</ApproachDelay>
+            <IntersectionApproachLevelOfService ID="EB">E</IntersectionApproachLevelOfService>
+            <IntersectionApproachLevelOfService ID="WB">E</IntersectionApproachLevelOfService>
+            <IntersectionApproachLevelOfService ID="NB">C</IntersectionApproachLevelOfService>
+            <IntersectionApproachLevelOfService ID="SB">C</IntersectionApproachLevelOfService>
+            <IntersectionControlDelay>32.1</IntersectionControlDelay>
+            <IntersectionLevelOfService>C</IntersectionLevelOfService>
+            <Cycle>160.0</Cycle>
+          </IntersectionPeriod>
+        </Periods>
+      </Intersection>
+      <Intersection Index="1">
+        <ReferencePhase>2</ReferencePhase>
+        <Offset>0</Offset>
+        <Reference>End</Reference>
+        <UncoordinatedIntersection>No</UncoordinatedIntersection>
+        <ForceMode>Fixed</ForceMode>
+        <SimultaneousGapOut ID="E/W">On</SimultaneousGapOut>
+        <SimultaneousGapOut ID="N/S">On</SimultaneousGapOut>
+        <AssignedMovement ID="EBL"></AssignedMovement>
+        <AssignedMovement ID="EBT"></AssignedMovement>
+        <AssignedMovement ID="EBR"></AssignedMovement>
+        <AssignedMovement ID="WBL">3</AssignedMovement>
+        <AssignedMovement ID="WBT">8</AssignedMovement>
+        <AssignedMovement ID="WBR">18</AssignedMovement>
+        <AssignedMovement ID="SBL">1</AssignedMovement>
+        <AssignedMovement ID="SBT">6</AssignedMovement>
+        <AssignedMovement ID="SBR"></AssignedMovement>
+        <AssignedMovement ID="NBL">5</AssignedMovement>
+        <AssignedMovement ID="NBT">2</AssignedMovement>
+        <AssignedMovement ID="NBR">12</AssignedMovement>
+        <AssignedPhase ID="WBT">8</AssignedPhase>
+        <AssignedPhase ID="SBL">1</AssignedPhase>
+        <AssignedPhase ID="SBT">6</AssignedPhase>
+        <AssignedPhase ID="NBL">5</AssignedPhase>
+        <AssignedPhase ID="NBT">2</AssignedPhase>
+        <ChangePeriod ID="WBT">2.6</ChangePeriod>
+        <ChangePeriod ID="SBL">3.8</ChangePeriod>
+        <ChangePeriod ID="SBT">4.5</ChangePeriod>
+        <ChangePeriod ID="NBL">3.8</ChangePeriod>
+        <ChangePeriod ID="NBT">4.5</ChangePeriod>
+        <CaseNumber ID="WBT">9.0</CaseNumber>
+        <CaseNumber ID="SBL">1.1</CaseNumber>
+        <CaseNumber ID="SBT">4.0</CaseNumber>
+        <CaseNumber ID="NBL">2.0</CaseNumber>
+        <CaseNumber ID="NBT">3.0</CaseNumber>
+        <Periods>
+          <IntersectionPeriod Index="0">
+            <PhaseDuration ID="WBT">24.5</PhaseDuration>
+            <PhaseDuration ID="SBL">11.0</PhaseDuration>
+            <PhaseDuration ID="SBT">100.4</PhaseDuration>
+            <PhaseDuration ID="NBL">35.1</PhaseDuration>
+            <PhaseDuration ID="NBT">124.5</PhaseDuration>
+            <GreenRatio ID="EBL"></GreenRatio>
+            <GreenRatio ID="EBT"></GreenRatio>
+            <GreenRatio ID="EBR"></GreenRatio>
+            <GreenRatio ID="WBL">0.14</GreenRatio>
+            <GreenRatio ID="WBT">0.14</GreenRatio>
+            <GreenRatio ID="WBR">0.14</GreenRatio>
+            <GreenRatio ID="SBL">0.64</GreenRatio>
+            <GreenRatio ID="SBT">0.60</GreenRatio>
+            <GreenRatio ID="SBR"></GreenRatio>
+            <GreenRatio ID="NBL">0.20</GreenRatio>
+            <GreenRatio ID="NBT">0.75</GreenRatio>
+            <GreenRatio ID="NBR">0.75</GreenRatio>
+            <AdjustedFlowRate ID="EBL"></AdjustedFlowRate>
+            <AdjustedFlowRate ID="EBT"></AdjustedFlowRate>
+            <AdjustedFlowRate ID="EBR"></AdjustedFlowRate>
+            <AdjustedFlowRate ID="WBL">94</AdjustedFlowRate>
+            <AdjustedFlowRate ID="WBT">74</AdjustedFlowRate>
+            <AdjustedFlowRate ID="WBR">278</AdjustedFlowRate>
+            <AdjustedFlowRate ID="SBL">59</AdjustedFlowRate>
+            <AdjustedFlowRate ID="SBT">1341</AdjustedFlowRate>
+            <AdjustedFlowRate ID="SBR"></AdjustedFlowRate>
+            <AdjustedFlowRate ID="NBL">252</AdjustedFlowRate>
+            <AdjustedFlowRate ID="NBT">872</AdjustedFlowRate>
+            <AdjustedFlowRate ID="NBR">305</AdjustedFlowRate>
+            <AdjustedSaturationFlowRate ID="EBL"></AdjustedSaturationFlowRate>
+            <AdjustedSaturationFlowRate ID="EBT"></AdjustedSaturationFlowRate>
+            <AdjustedSaturationFlowRate ID="EBR"></AdjustedSaturationFlowRate>
+            <AdjustedSaturationFlowRate ID="WBL">1810</AdjustedSaturationFlowRate>
+            <AdjustedSaturationFlowRate ID="WBT">1900</AdjustedSaturationFlowRate>
+            <AdjustedSaturationFlowRate ID="WBR">1610</AdjustedSaturationFlowRate>
+            <AdjustedSaturationFlowRate ID="SBL">1810</AdjustedSaturationFlowRate>
+            <AdjustedSaturationFlowRate ID="SBT">1725</AdjustedSaturationFlowRate>
+            <AdjustedSaturationFlowRate ID="SBR"></AdjustedSaturationFlowRate>
+            <AdjustedSaturationFlowRate ID="NBL">1757</AdjustedSaturationFlowRate>
+            <AdjustedSaturationFlowRate ID="NBT">1725</AdjustedSaturationFlowRate>
+            <AdjustedSaturationFlowRate ID="NBR">1610</AdjustedSaturationFlowRate>
+            <QueueServiceTime ID="EBL"></QueueServiceTime>
+            <QueueServiceTime ID="EBT"></QueueServiceTime>
+            <QueueServiceTime ID="EBR"></QueueServiceTime>
+            <QueueServiceTime ID="WBL">7.6</QueueServiceTime>
+            <QueueServiceTime ID="WBT">5.6</QueueServiceTime>
+            <QueueServiceTime ID="WBR">21.9</QueueServiceTime>
+            <QueueServiceTime ID="SBL">1.9</QueueServiceTime>
+            <QueueServiceTime ID="SBT">22.4</QueueServiceTime>
+            <QueueServiceTime ID="SBR"></QueueServiceTime>
+            <QueueServiceTime ID="NBL">10.9</QueueServiceTime>
+            <QueueServiceTime ID="NBT">6.9</QueueServiceTime>
+            <QueueServiceTime ID="NBR">6.7</QueueServiceTime>
+            <CycleQueueClearanceTime ID="EBL"></CycleQueueClearanceTime>
+            <CycleQueueClearanceTime ID="EBT"></CycleQueueClearanceTime>
+            <CycleQueueClearanceTime ID="EBR"></CycleQueueClearanceTime>
+            <CycleQueueClearanceTime ID="WBL">7.6</CycleQueueClearanceTime>
+            <CycleQueueClearanceTime ID="WBT">5.6</CycleQueueClearanceTime>
+            <CycleQueueClearanceTime ID="WBR">21.9</CycleQueueClearanceTime>
+            <CycleQueueClearanceTime ID="SBL">1.9</CycleQueueClearanceTime>
+            <CycleQueueClearanceTime ID="SBT">22.4</CycleQueueClearanceTime>
+            <CycleQueueClearanceTime ID="SBR"></CycleQueueClearanceTime>
+            <CycleQueueClearanceTime ID="NBL">10.9</CycleQueueClearanceTime>
+            <CycleQueueClearanceTime ID="NBT">6.9</CycleQueueClearanceTime>
+            <CycleQueueClearanceTime ID="NBR">6.7</CycleQueueClearanceTime>
+            <Capacity ID="EBL"></Capacity>
+            <Capacity ID="EBT"></Capacity>
+            <Capacity ID="EBR"></Capacity>
+            <Capacity ID="WBL">248</Capacity>
+            <Capacity ID="WBT">260</Capacity>
+            <Capacity ID="WBR">220</Capacity>
+            <Capacity ID="SBL">513</Capacity>
+            <Capacity ID="SBT">3102</Capacity>
+            <Capacity ID="SBR"></Capacity>
+            <Capacity ID="NBL">687</Capacity>
+            <Capacity ID="NBT">3882</Capacity>
+            <Capacity ID="NBR">1208</Capacity>
+            <AvailableCapacity ID="EBL"></AvailableCapacity>
+            <AvailableCapacity ID="EBT"></AvailableCapacity>
+            <AvailableCapacity ID="EBR"></AvailableCapacity>
+            <AvailableCapacity ID="WBL">248</AvailableCapacity>
+            <AvailableCapacity ID="WBT">260</AvailableCapacity>
+            <AvailableCapacity ID="WBR">220</AvailableCapacity>
+            <AvailableCapacity ID="SBL">513</AvailableCapacity>
+            <AvailableCapacity ID="SBT">3102</AvailableCapacity>
+            <AvailableCapacity ID="SBR"></AvailableCapacity>
+            <AvailableCapacity ID="NBL">687</AvailableCapacity>
+            <AvailableCapacity ID="NBT">3882</AvailableCapacity>
+            <AvailableCapacity ID="NBR">1208</AvailableCapacity>
+            <UniformDelay ID="EBL"></UniformDelay>
+            <UniformDelay ID="EBT"></UniformDelay>
+            <UniformDelay ID="EBR"></UniformDelay>
+            <UniformDelay ID="WBL">62.9</UniformDelay>
+            <UniformDelay ID="WBT">62.0</UniformDelay>
+            <UniformDelay ID="WBR">69.1</UniformDelay>
+            <UniformDelay ID="SBL">10.5</UniformDelay>
+            <UniformDelay ID="SBT">17.3</UniformDelay>
+            <UniformDelay ID="SBR"></UniformDelay>
+            <UniformDelay ID="NBL">64.1</UniformDelay>
+            <UniformDelay ID="NBT">5.0</UniformDelay>
+            <UniformDelay ID="NBR">4.1</UniformDelay>
+            <QueueClearanceTime ID="WBT">23.9</QueueClearanceTime>
+            <QueueClearanceTime ID="SBL">3.9</QueueClearanceTime>
+            <QueueClearanceTime ID="SBT"></QueueClearanceTime>
+            <QueueClearanceTime ID="NBL">12.9</QueueClearanceTime>
+            <QueueClearanceTime ID="NBT"></QueueClearanceTime>
+            <MaxAllowHeadway ID="WBT">3.3</MaxAllowHeadway>
+            <MaxAllowHeadway ID="SBL">3.1</MaxAllowHeadway>
+            <MaxAllowHeadway ID="SBT">0.0</MaxAllowHeadway>
+            <MaxAllowHeadway ID="NBL">3.1</MaxAllowHeadway>
+            <MaxAllowHeadway ID="NBT">0.0</MaxAllowHeadway>
+            <GreenExtensionTime ID="WBT">0.0</GreenExtensionTime>
+            <GreenExtensionTime ID="SBL">0.0</GreenExtensionTime>
+            <GreenExtensionTime ID="SBT">0.0</GreenExtensionTime>
+            <GreenExtensionTime ID="NBL">0.5</GreenExtensionTime>
+            <GreenExtensionTime ID="NBT">0.0</GreenExtensionTime>
+            <MaxOutProbability ID="WBT">1.00</MaxOutProbability>
+            <MaxOutProbability ID="SBL">0.77</MaxOutProbability>
+            <MaxOutProbability ID="SBT"></MaxOutProbability>
+            <MaxOutProbability ID="NBL">0.00</MaxOutProbability>
+            <MaxOutProbability ID="NBT"></MaxOutProbability>
+            <PhaseCallProbability ID="WBT">1.00</PhaseCallProbability>
+            <PhaseCallProbability ID="SBL">1.00</PhaseCallProbability>
+            <PhaseCallProbability ID="SBT"></PhaseCallProbability>
+            <PhaseCallProbability ID="NBL">1.00</PhaseCallProbability>
+            <PhaseCallProbability ID="NBT"></PhaseCallProbability>
+            <InitialQueueDelay ID="WBL">0.0</InitialQueueDelay>
+            <InitialQueueDelay ID="WBT">0.0</InitialQueueDelay>
+            <InitialQueueDelay ID="WBR">0.0</InitialQueueDelay>
+            <InitialQueueDelay ID="SBL">0.0</InitialQueueDelay>
+            <InitialQueueDelay ID="SBT">0.0</InitialQueueDelay>
+            <InitialQueueDelay ID="NBL">0.0</InitialQueueDelay>
+            <InitialQueueDelay ID="NBT">0.0</InitialQueueDelay>
+            <InitialQueueDelay ID="NBR">0.0</InitialQueueDelay>
+            <IncrementalDelay ID="WBL">0.4</IncrementalDelay>
+            <IncrementalDelay ID="WBT">0.2</IncrementalDelay>
+            <IncrementalDelay ID="WBR">148.4</IncrementalDelay>
+            <IncrementalDelay ID="SBL">0.0</IncrementalDelay>
+            <IncrementalDelay ID="SBT">0.4</IncrementalDelay>
+            <IncrementalDelay ID="NBL">0.1</IncrementalDelay>
+            <IncrementalDelay ID="NBT">0.1</IncrementalDelay>
+            <IncrementalDelay ID="NBR">0.5</IncrementalDelay>
+            <QueueStorageRatio ID="WBL">1.18</QueueStorageRatio>
+            <QueueStorageRatio ID="WBT">0.00</QueueStorageRatio>
+            <QueueStorageRatio ID="WBR">0.00</QueueStorageRatio>
+            <QueueStorageRatio ID="SBL">0.05</QueueStorageRatio>
+            <QueueStorageRatio ID="SBT">0.00</QueueStorageRatio>
+            <QueueStorageRatio ID="NBL">0.57</QueueStorageRatio>
+            <QueueStorageRatio ID="NBT">0.00</QueueStorageRatio>
+            <QueueStorageRatio ID="NBR">0.00</QueueStorageRatio>
+            <BackOfQueue ID="WBL">3.5</BackOfQueue>
+            <BackOfQueue ID="WBT">2.7</BackOfQueue>
+            <BackOfQueue ID="WBR">18.1</BackOfQueue>
+            <BackOfQueue ID="SBL">0.8</BackOfQueue>
+            <BackOfQueue ID="SBT">9.0</BackOfQueue>
+            <BackOfQueue ID="NBL">5.1</BackOfQueue>
+            <BackOfQueue ID="NBT">2.3</BackOfQueue>
+            <BackOfQueue ID="NBR">2.1</BackOfQueue>
+            <ControlDelay ID="WBL">63.2</ControlDelay>
+            <ControlDelay ID="WBT">62.3</ControlDelay>
+            <ControlDelay ID="WBR">217.4</ControlDelay>
+            <ControlDelay ID="SBL">10.5</ControlDelay>
+            <ControlDelay ID="SBT">17.8</ControlDelay>
+            <ControlDelay ID="NBL">64.2</ControlDelay>
+            <ControlDelay ID="NBT">5.1</ControlDelay>
+            <ControlDelay ID="NBR">4.5</ControlDelay>
+            <VolumeToCapacityRatio ID="WBL">0.381</VolumeToCapacityRatio>
+            <VolumeToCapacityRatio ID="WBT">0.286</VolumeToCapacityRatio>
+            <VolumeToCapacityRatio ID="WBR">1.260</VolumeToCapacityRatio>
+            <VolumeToCapacityRatio ID="SBL">0.115</VolumeToCapacityRatio>
+            <VolumeToCapacityRatio ID="SBT">0.432</VolumeToCapacityRatio>
+            <VolumeToCapacityRatio ID="NBL">0.367</VolumeToCapacityRatio>
+            <VolumeToCapacityRatio ID="NBT">0.225</VolumeToCapacityRatio>
+            <VolumeToCapacityRatio ID="NBR">0.253</VolumeToCapacityRatio>
+            <LevelOfService ID="WBL">E</LevelOfService>
+            <LevelOfService ID="WBT">E</LevelOfService>
+            <LevelOfService ID="WBR">F</LevelOfService>
+            <LevelOfService ID="SBL">B</LevelOfService>
+            <LevelOfService ID="SBT">B</LevelOfService>
+            <LevelOfService ID="NBL">E</LevelOfService>
+            <LevelOfService ID="NBT">A</LevelOfService>
+            <LevelOfService ID="NBR">A</LevelOfService>
+            <PedLOSScore ID="EB">2.88</PedLOSScore>
+            <PedLOSScore ID="WB">2.63</PedLOSScore>
+            <PedLOSScore ID="NB">2.05</PedLOSScore>
+            <PedLOSScore ID="SB">1.67</PedLOSScore>
+            <PedLOS ID="EB">C</PedLOS>
+            <PedLOS ID="WB">C</PedLOS>
+            <PedLOS ID="NB">B</PedLOS>
+            <PedLOS ID="SB">B</PedLOS>
+            <BikeLOSScore ID="EB"></BikeLOSScore>
+            <BikeLOSScore ID="WB">1.22</BikeLOSScore>
+            <BikeLOSScore ID="NB">2.12</BikeLOSScore>
+            <BikeLOSScore ID="SB">1.26</BikeLOSScore>
+            <BikeLOS ID="EB"></BikeLOS>
+            <BikeLOS ID="WB">A</BikeLOS>
+            <BikeLOS ID="NB">B</BikeLOS>
+            <BikeLOS ID="SB">A</BikeLOS>
+            <Volumes ID="EBL"></Volumes>
+            <Volumes ID="EBT"></Volumes>
+            <Volumes ID="EBR"></Volumes>
+            <Volumes ID="WBL">85</Volumes>
+            <Volumes ID="WBT">67</Volumes>
+            <Volumes ID="WBR">250</Volumes>
+            <Volumes ID="SBL">53</Volumes>
+            <Volumes ID="SBT">1207</Volumes>
+            <Volumes ID="SBR"></Volumes>
+            <Volumes ID="NBL">471</Volumes>
+            <Volumes ID="NBT">1628</Volumes>
+            <Volumes ID="NBR">570</Volumes>
+            <ApproachDelay ID="EB">0.0</ApproachDelay>
+            <ApproachDelay ID="WB">159.0</ApproachDelay>
+            <ApproachDelay ID="NB">15.4</ApproachDelay>
+            <ApproachDelay ID="SB">17.5</ApproachDelay>
+            <IntersectionApproachLevelOfService ID="EB"></IntersectionApproachLevelOfService>
+            <IntersectionApproachLevelOfService ID="WB">F</IntersectionApproachLevelOfService>
+            <IntersectionApproachLevelOfService ID="NB">B</IntersectionApproachLevelOfService>
+            <IntersectionApproachLevelOfService ID="SB">B</IntersectionApproachLevelOfService>
+            <IntersectionControlDelay>35.9</IntersectionControlDelay>
+            <IntersectionLevelOfService>D</IntersectionLevelOfService>
+            <Cycle>160.0</Cycle>
+          </IntersectionPeriod>
+        </Periods>
+      </Intersection>
+    </Intersections>
+  </OutputData>
+</TMML>
